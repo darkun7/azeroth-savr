@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YZ7DtENT/3I=",
+  "success": true,
+  "projectFilePath": "P:\\Repos\\azeroth-savr\\scripts\\guid-extract\\extractor\\guid-extract.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harta\\.nuget\\packages\\assetstools.net\\3.0.5\\assetstools.net.3.0.5.nupkg.sha512",
+    "C:\\Users\\harta\\.nuget\\packages\\assetstools.net.monocecil\\3.0.4\\assetstools.net.monocecil.3.0.4.nupkg.sha512",
+    "C:\\Users\\harta\\.nuget\\packages\\mono.cecil\\0.11.3\\mono.cecil.0.11.3.nupkg.sha512"
+  ],
+  "logs": []
+}

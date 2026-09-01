@@ -1,0 +1,673 @@
+Name,GUID,Type,Description
+Acid Spit,3f6d150e-d18c-4464-869a-fe5aba0efcdc,SkillInfo,Hurls a bolt of fire dealing *0 fire damage to a single target. 
+BAS_Melee,008d709a-5047-4863-a9cd-3749d16cbe4c,SkillInfo,Deals *0 weapon damage to target. 
+BAS_Melee Greater Werewolf,9f44934a-d79b-46be-9fc2-8debd9bf4cd0,SkillInfo,Deals *0 weapon damage to target 3 times.  Applies {STA=Bleeding} on hit.
+BAS_Melee Werewolf,aeda6f75-cf19-4897-8f6b-e146bffcfb0f,SkillInfo,Deals *0 weapon damage to target 2 times.  Applies {STA=Bleeding} on hit.
+BAS_Melee_Healing,862e939c-d475-4337-8b49-2fb5739ab7da,SkillInfo,"Deals *0 weapon damage to target. 
+
+When targeting an ally, heals for *0."
+BAS_Ranged,2d867f05-d299-418f-9924-b88b3112d243,SkillInfo,Deals *0 weapon damage to target. 
+BAS_Ranged_Healing,cf4fdfdc-da16-44d7-9419-05059b6c22e1,SkillInfo,"Deals *0 weapon damage to target. 
+
+When targeting an ally, heals for *0."
+BAS_Staff,c0acb8bd-71ad-4ca5-a5df-51bccdb8d4c5,SkillInfo,Deals *0 weapon damage to target. 
+BAS_Staff_Healing,1d38f72e-162f-4ff6-97a0-66b719709972,SkillInfo,"Heals target ally for *0.  
+
+When targeting an enemy, deals *0 Holy Damage."
+BAS_Unarmed,9d48e6f2-b1e2-43cd-a6e4-448ae0f77a8f,SkillInfo,Deals *0 weapon damage to target. 
+BAS_Unarmed_Healing,f1a8402b-e82d-453e-8d0f-50d347122172,SkillInfo,"Heals target ally for *0.  
+
+When targeting an enemy, deals *0 Holy Damage."
+Boss_Haunt,b5b6e6c2-2de6-4751-8713-4844a788eda7,SkillInfo,"Deals *0 shadow damage to the target every turn for 3 turns. @Life Steals@ for 8%. 
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect abilities."
+Boss_Tainted Touch,f4130c77-6530-4d7b-a0fe-5a875bd65066,SkillInfo,"Reaches out to the target with dark energy dealing *0 shadow damage. @Life Steals@ for 15%.
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect abilities."
+Boss_Tainted Touch Baron,6f45799d-b5bc-4346-9c35-b6d733966907,SkillInfo,"Reaches out to the target with dark energy dealing *0 shadow damage. @Life Steals@ for 15%.
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect abilities."
+Champion_Mass Thunder Bolt,6e20a3cd-c108-4036-8b67-bdd89c9e394a,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+CHAOS_1_A1_Switcheroo,14ac1be9-5d84-43ef-8916-684ffc382d6e,SkillInfo,"Swap places with an @Enemy@, @Ally@, or @Object@."
+CHAOS_1_A2_Chaos Crash,c3994cc8-2434-47c2-9edf-505a18032c08,SkillInfo,Hurls a bolt of chaos dealing damage to a single target. Every damage type has a 50% chance to deal *0 damage.
+CHAOS_1_A3_Chaos Curse,a4f7b6ad-c1ce-45b0-9bf1-0110e5ede677,SkillInfo,Curses the target to take damage. Each element has a @50%@ chance to deal *0 damage every turn.
+CHAOS_1_A4_Telekinesis,f8acf9b3-65b9-48d5-a2e7-555019143e4d,SkillInfo,Moves any @Object@ within 8 hexes.
+CHAOS_1_P1_Omnism I,922a71d3-2ba7-4ad1-be99-d4a05ee2d4d7,SkillInfo,Increases the effectiveness of shrines by 8%.
+CHAOS_1_P2_Sustenance I,b0c4e385-309e-4e1c-9629-cb74003ff290,SkillInfo,Consuming any Globule heals you for 8% of max life and mana.
+CHAOS_1_P3_Disruption I,8431592e-f14e-4e4e-99f9-7d701d160a37,SkillInfo,4% chance to negate all damage when taking damage.
+CHAOS_2_A1_Helping,afca6d5f-1259-46f0-b6b2-ff886b117036,SkillInfo,Offer your chaotic assistance to the target ally. Results may vary greatly...
+CHAOS_2_A2_Hurting,fc596611-c9a0-4066-a5dd-2041ff116839,SkillInfo,Chaotically harm the target enemy. Results may vary greatly...
+CHAOS_2_A3_Chaos Cut,1b34defd-48ab-4374-a61f-d42c26edc240,SkillInfo,Summons a whirling blade of chaos in a line. Every damage type has a 50% chance to deal *0 damage.
+CHAOS_2_A4_Magic Hat I,39da7bfe-62a9-42c9-b6c6-440803a481c5,SkillInfo,Produce a random barrel on the target hex.
+CHAOS_2_P1_Omnism II,83da8365-956a-4d96-a7d2-4b91dea1c27c,SkillInfo,Increases the effectiveness of shrines by an additional 12%.
+CHAOS_2_P2_Sustenance II,ad41f5ac-7da8-4b40-b245-858d3c233159,SkillInfo,Consuming any Globule heals you for 12% of max life and mana.
+CHAOS_2_P3_Disruption II,2ad638af-ade9-4047-9bfb-0bdea0b2e4ba,SkillInfo,6% chance to negate all damage when taking damage.
+CHAOS_2_P4_Displacement,21da733a-81df-43d4-ba18-2ee0d7a7148d,SkillInfo,Teleport randomly when taking damage.
+CHAOS_3_A1_Chaos Cloud,b7623568-8a0e-421a-a9fa-a2e16a695f82,SkillInfo,Summons a cloud of chaos that strikes 3 times. At every strike each damage type has a @50%@ chance to deal *0 damage.
+CHAOS_3_A2_Disperse,cdbc5288-d379-4256-8d2f-20c2e71bb77c,SkillInfo,Teleports all enemies within 3 hexes of you to any random hex 4 to 8 hexes from you. Applies a 1 turn slow.
+CHAOS_3_A4_Magic Hat II,490820d0-5c0d-4cb6-b6a9-861be353c1e7,SkillInfo,Produce a random Shrine on the target hex. The shrine is destructable and moveable.
+CHAOS_3_P1_Variety I,d0081046-c138-449a-a9a8-1af95742348e,SkillInfo,Each turn gain two random buffs that increase the damage of a random element by @40@% this turn. 
+CHAOS_3_P2_Affinity,ec7bba0a-75d9-4646-ad4c-0267685eada1,SkillInfo,Each time you deal damage or healing with a specific element gain a stacking buff that increases your damage or healing with that element by 2%. Stacks. Lasts the duration of battle.
+CHAOS_3_P3_Aid,9030db1e-ca83-43a1-87f3-5d8dd75c712a,SkillInfo,Healing an ally has a 10% chance to apply Helping.
+CHAOS_3_P4_Harm,adca2a3d-dfb9-496a-9937-345c8fd286e7,SkillInfo,Damaging an Enemy has a 10% chance to apply Hurting.
+CHAOS_4_A1_Benevolence,56f9fd71-921b-4667-95d9-84f48848c39e,SkillInfo,Applies @Helping@ to all allies.
+CHAOS_4_A1_Touch of Chaos,c5fd69aa-49f2-4c3d-ba28-7db2cb1638fa,SkillInfo,Enchant an ally with a random Chaos Modifier.
+CHAOS_4_A2_Malevolence,910725e7-09f1-4c8d-88f5-c7771cc8f748,SkillInfo,Applies @Hurting@ to all enemies.
+CHAOS_4_A3_Chaos Touch,cbab3dc9-5461-4441-933b-63e139ed3b7c,SkillInfo,Enchant an ally with a random chaos modifier.
+CHAOS_4_A4_Magic Hat III,61fb3f6f-619b-4c40-9bb7-959602ceedcc,SkillInfo,Produce a random Globule on the target hex.
+CHAOS_4_P1_Variety II,84efd1f5-d6d5-436e-ae82-c5da0515c1cb,SkillInfo,Each turn gain two random buffs that increase the damage of a specfic element by 60% this turn. 
+CHAOS_4_P2_Fabricate,395e049f-cb56-4cc4-93ac-ac5a539de9fd,SkillInfo,When you consume a globule you have a 50% chance to spawn a random globule within a 6 hex area of you.
+CHAOS_5_A1_Chaos Crush,fb51cb55-667c-4fc2-8133-fe6ed849641e,SkillInfo,Call down chaos to crush your enemies. Deals between *0 and *1 damage within 2 hexes. Always hits with all damage types.
+CHAOS_5_A2_Replicate,aba3d603-6b30-464a-b07f-9ae52a59d914,SkillInfo,"Creates a clone of yourself that can cast your abilities. The Replicate Clone explodes for damage on death, each element has a @50%@ chance to deal *0 damage."
+CHAOS_5_P1_Reverberate,9c4a6fc9-b7c4-4f59-ae41-111b0c2cbcac,SkillInfo,When you take a @Free Action@ or @Action@ you have a 33% chance explode in chaos dealing all types of damage and healing.
+CHAOS_5_P2_Perturb,d9fdbc0b-b2a4-4421-b9d2-5fc851a2d5fa,SkillInfo,"Each time a damage or healing skill is cast, it recieves a random effectiveness modifier from 50% up to 250%. "
+Coin of Chaos,b9dc8396-c41d-436a-afb8-2e9b952e4cae,SkillInfo,Flip the Coin of Chaos!
+COLD_1_A1_Frost Shard,d5ad8e29-3044-4448-9437-0caf985ea0a8,SkillInfo,Impale your target on a shard of ice dealing *0 cold damage.
+COLD_1_A2_Chilling Strike,77fe40a7-9103-4178-8abc-8853d5ad3030,SkillInfo,The caster's hand becomes imbued with frost thrusting it at the target dealing *0 cold damage.
+COLD_1_A3_Frost Armor,2208fbbd-9850-4ab8-b79f-4890df3df20c,SkillInfo,Envelopes the caster in frost granting 10% @Cold Resistance@.   Attackers take *0 cold damage.
+COLD_1_A4_Freeze Earth,9dc01e66-033f-4253-b592-600ccd1ee086,SkillInfo,Freezes the ground in the target area applying 1 stack of Chilled to enemies that enter.
+COLD_1_P1_Frostbite I,d8150318-0785-4e4b-a498-3309785b4818,SkillInfo,Your stacks of @chilled@ now reduce the targets damage by 2%.
+COLD_1_P2_Crystalize I,73f8d326-da19-4833-9d8e-37bef6108719,SkillInfo,Increases @Physical Resistance@ by 5%.
+COLD_1_P3_Frost Borne,72cb11ac-9b05-498e-b70f-277483276962,SkillInfo,Increases @cold resistance@ by 10%
+COLD_2_A1_Frost Nova,58e5745d-97e6-435d-9cc3-32ba40624c70,SkillInfo,The caster creates a wave of frozen energy dealing *0 cold damage within 2 hexes of the selected target.
+COLD_2_A2_Ice Lance,a01976e1-79bd-4b7c-b5ad-5d00d831dbaf,SkillInfo,The caster hurls a razor-like shard of ice piercing foes in a line dealing *0 cold damage. 
+COLD_2_A3_Enchant Cold,ec47077f-c7e0-46a8-919e-355574736558,SkillInfo,Enchants the target's weapon to add *0 cold damage to attacks. 
+COLD_2_A4_Deep Freeze,89b80d70-2371-4ba1-a442-0874f08501c7,SkillInfo,Intense frost encircles your foe applying 5 stacks of {STA=Chilled} on the target.
+COLD_2_P1_Frostbite II,e0c03c2e-91d4-43f4-a9eb-bca37a15531f,SkillInfo,Your stacks of @Chilled@ now reduce the targets damage by an additional 3%.
+COLD_2_P2_Crystalize II,3191db14-dd9e-41ad-a57d-582edb939bc4,SkillInfo,Increases @Physical Resistance@ by an additional 10%.
+COLD_2_P3_Break The Ice,27017ff7-2c25-4374-97fd-dd8ce0c98d9a,SkillInfo,"The first time you deal damage or healing in battle, it's effectiveness is increased by 100%."
+COLD_3_A1_Frozen Spikes,76acf606-9f9a-4a69-b535-53181edb48f4,SkillInfo,Hurl 5 shards of ice dealing *0 cold damage to each target.
+COLD_3_A2_Ice Wall,7e6703df-535d-48d9-9fa4-f8f110f3ce66,SkillInfo,Summon pillars of ice to block 4 hexes blocking enemy's line of sight. Attackers take cold damage.  Lasts 4 turns.
+COLD_3_A3_Breath of Winter,e5467ec0-99ad-45b4-85d2-463450c3cb5e,SkillInfo,Conjures the breath of a frost dragon dealing *0 cold damage to all enemies in a cone. 
+COLD_3_A4_Aura Of Frost,4a94cc56-f32a-4773-ba12-0827b5808c70,SkillInfo,Deals *0 cold damage to enemies that start their turns within 3 hexes of your character.
+COLD_3_P1_Cold Blooded,9dd4c4d5-ee58-4024-9315-000ce9f1e999,SkillInfo,Each stack of chilled you've applied increases your cold damage by 5%.
+COLD_3_P2_Diamond Ice,3f4a5063-576b-4f12-8e8f-10ba9ddbb4df,SkillInfo,"1% of your @Armor@ value is added to your character as @Additional Cold Damage@.
+
+Current Bonus: [0]"
+COLD_4_A1_Stasis,778a1e3a-907d-4926-aad3-921a9cdb2f3d,SkillInfo,Incases the friendly target in a dome of ice granting [0] Armor and Magic Armor for the duration. Immobilizes the target.
+COLD_4_A2_Ice Storm,48f86c3e-1b84-4137-bbb5-fde153b9c1b8,SkillInfo,Conjure a massive ice storm dealing *0 cold damage to affected enemies each turn.
+COLD_4_A3_Brain Freeze,c311cbb4-a500-4e09-92f8-94bd89077ef8,SkillInfo,Deals [0] cold damage each time the target performs an action.
+COLD_4_P1_Frozen Core,4e5e30b7-845b-4631-86ea-7ec768fa17ef,SkillInfo,Each stack of @chilled@ now reduces the target's maxium health by 5%.
+COLD_4_P2_Invulnerable Winter,c4ba0e93-b273-496f-adb0-e22d9b360c41,SkillInfo,"@Intelligence@ grants [0] @Armor@ and @Magic Armor@ per point.
+
+Current Bonus: [1]"
+COLD_5_A1_Mass Freeze,0b79d5cc-d5a6-443f-9d82-f6af10ef03c5,SkillInfo,Applies {STA=Frozen} to all enemies.
+COLD_5_A2_Chain Frost,b23ba4f5-c901-432c-b0b7-8462836f5a98,SkillInfo,Deals *0 cold damage.  Bounces between enemies within 4 hexes up to 10 times.
+COLD_5_A3_Shatter,2fdc07c4-f235-47a0-8675-70bc7da2d682,SkillInfo,Summons a blast of frozen energy dealing *0 cold damage plus an additional *0 per stack of @Chilled@ on targets in a 4 hex radius.
+COLD_5_P1_Master Of Ice,559550e0-885c-4b8a-b34d-a6a1107e9fc7,SkillInfo,"Each turn you freeze an enemy, you gain an additional action."
+COLD_5_P2_Icefall,dae8969a-3ea5-4361-a0aa-8d87021a0b9a,SkillInfo,When enemies are frozen by you they release a @frost nova@. 
+Dismiss Shapeshift,b682b407-2da2-4586-af4e-05b2bd5318cd,SkillInfo,Dismiss your active shapeshift.
+Dragonkin Black,37af7274-087e-46f7-8a32-4a9966720978,SkillInfo,Shapeshift into a @Black Dragonkin@. Empowers your basic attack and gain new abilities. Armor and Damage Reduction increased.
+Dragonkin Fire Breath,8b01a130-c81b-455a-9437-cc59e2f3326d,SkillInfo,Breath fire dealing *0 fire damage to all enemies in a cone. 
+Dragonkin Flame Slash,3e463301-f301-49b5-93fa-ccb5889387c1,SkillInfo,Slash nearby targets dealing *0 fire damage to all enemies.
+Dragonkin Frost Breath,f9d85c5a-7576-4d37-843b-723e159d5206,SkillInfo,Deals *0 cold damage each turn.
+Dragonkin Frost Slash,bad87a3a-9f8c-410f-a6a9-f488a8d1ba7b,SkillInfo,Slash nearby targets dealing *0 cold damage to all enemies.
+Dragonkin Frozen Orb,8df74ec0-7fae-4e00-a6f3-85a0274df4c1,SkillInfo,Hurls a ball of Ice dealing *0 cold damage to all targets in range. Applies 5 stacks of {STA=Chilled}
+Dragonkin Holy Blast,01a2099f-60d5-4768-b729-7e259bd8cdd1,SkillInfo,Expel a powerful celestial light blinding enemies and dealing *0 holy damage to all enemies and healing *0 to all allies in range.
+Dragonkin Holy Breath,60354f76-0a7c-4438-9008-85df8037405a,SkillInfo,Breathe out a stream of holy light dealing *0 holy damage to all enemies and healing *0 to all allies in range.
+Dragonkin Holy Slash,5925ed0a-e01f-4063-97c1-57ff584f2c59,SkillInfo,Slash nearby targets dealing *0 holy damage to all enemies and healing *0 to all allies in range.
+Dragonkin Lightning Breath,6a9ed2a9-ecad-4ca2-afc6-ef866c37d106,SkillInfo,Breath lightning dealing *0 lightning damage to all enemies in a cone. 
+Dragonkin Shadow Breath,f2f1bee4-2ea0-4247-9da2-be43133dd643,SkillInfo,Breathe out a stream of shadow energy dealing *0 shadow damage to all enemies in range.
+Dragonkin Shadow Orb,d1041350-7f20-4596-b243-f3831e8fa8d1,SkillInfo,Hurls an orb of dark energy dealing *0 shadow damage to all targets in range.
+Dragonkin Shadow Slash,b2cc57fd-19e2-4669-9f4d-faf24f65ff19,SkillInfo,Slash nearby targets dealing *0 shadow damage to all enemies in range.
+Dragonkin Sun Fire,922c35f7-9449-40d5-90f3-d93a4c0a26d3,SkillInfo,Hurls a ball of flame dealing *0 fire damage to all targets in range. Applies 10 stacks of {STA=Heat}
+Dragonkin Thunder Blast,3fec6b86-5b4a-44eb-a690-4ad13c6c54ba,SkillInfo,Conjure a storm of lightning dealing *0 lightning damage to all targets in range. Applies 10 stacks of {STA=Shocked}.
+Dragonkin Thunder Slash,089159a7-b192-41e8-880a-ecbd4488a7f8,SkillInfo,Slash nearby targets dealing *0 lightning damage to all enemies.
+Dragonkin White,6341c783-ade4-4f5c-a124-af3de9b462ce,SkillInfo,Shapeshift into a @White Dragonkin@. Empowers your basic attack and gain new abilities. Armor and Damage Reduction increased.
+Elixir of the Scarlet Ox,aa91c1ef-d110-427c-b712-6a26b9deaa67,SkillInfo,Grants 1 additional Action Point and 3 Movement Points. Applies {STA=Exhaustion}.
+Enchant Holy,6b42dcc2-9354-4f06-8152-1fe09594bd66,SkillInfo,Enchants the target's weapon to add *0 holy damage to attacks. 
+Enchant Shadow,07807a49-de05-463f-a775-0bfe02b105fb,SkillInfo,Enchants the target's weapon to add *0 shadow damage to attacks. 
+Enemy Acid Burst,e35c7859-44a5-4648-b78a-fb4208405a26,SkillInfo,The caster creates an poison gas cloud that applies 5 stacks of poison within 2 hexes of the selected target.
+Enemy_3_A1_Soul Fracture,c690fa26-ce99-47f4-884c-b25a48c8b2ea,SkillInfo,Fracture the target's soul dealing *0 shadow damage. Lowers the target's @Maximum Health@ and @Maximum Mana@ by 20%.
+Enemy_Abyssal Scream,b5eb0519-1106-4f61-9893-0d9b09fefadc,SkillInfo,Deals *0 physical damage.  Enemies within 2 hexes are @feared@ for 1 turn.
+Enemy_Battle Fury,9315d6ea-a3c9-4c3b-b366-b5f3d2ab3744,SkillInfo,Increases damage dealt by 25%. Increases damage taken by 25%.
+Enemy_BER_Bleeding Cleave,d93f07ee-f74b-4901-b6f6-3577aa328513,SkillInfo,Swing in a 180 degree arc striking all foes for *0 weapon damage.
+Enemy_Burrow,c6578044-b0d1-4efc-941f-5408b31afc88,SkillInfo,Jump to the target area.  Unaffected by increased range modifiers.
+Enemy_COLD_Frost Nova,9cd65bf4-7475-48de-bf8d-5b697a16e580,SkillInfo,The caster creates a wave of frozen energy dealing *0 cold damage within 2 hexes of the selected target.
+Enemy_COLD_Frost Rounds,7d8a159a-03ff-4a8b-8d3b-676f9d649c15,SkillInfo,The caster creates a wave of frozen energy dealing *0 cold damage within 2 hexes of the selected target.
+Enemy_Corrosive Bite,c6bb98f3-aae3-4ee3-8793-98458f3430ea,SkillInfo,Deals *0 weapon damage. Applies {STA=Disabled} to the target for 1 turn and applies 3 stacks of {STA=Bleeding}.
+Enemy_Crystal Bite,c2b99db7-c8a0-40ff-b723-1f58d26cf9bc,SkillInfo,Deals *0 weapon damage.  Lowers targets @Resistance@ by 20% for 2 turns.
+Enemy_Fear,e5467c06-1282-4960-9c3a-c0463d642d4c,SkillInfo,Fears target.
+Enemy_FIRE_Detonate,0c29baa3-8621-4df3-8fca-f082429adfb0,SkillInfo,Deals *0 fire damage to all foes within 3 hexes of your character.
+Enemy_FORGE_MassRuneOfExploding,85bac245-40e8-4a4b-a193-06874ef0ba72,SkillInfo,"Place a rune on the selected hex. After 1 turn, it detonates dealing [0] fire damage to all enemies within 1 hex."
+Enemy_HLY_Hand of God,7d67b03e-787a-4d38-aad1-e8c0ed480a10,SkillInfo,Heal all allies to full.
+Enemy_Howl of Terror,13e43f4b-54bc-4069-bf10-2fbe0bf6ddd4,SkillInfo,Deals *0 physical damage.  Enemies within 2 hexes are @feared@ for 1 turn.
+Enemy_Ice Blink,ee8e6f7b-dc62-45da-9b3c-a36f0bedd8c3,SkillInfo,Jump to the target area.  Unaffected by increased range modifiers.
+Enemy_Incalculable Rage,5e12dac8-a9d5-4509-b47f-c029154947e8,SkillInfo,Grants 2 additional Action Points. Lowers movement points by 5.
+Enemy_Indestructible,1aeb5764-e7c6-4d40-86eb-20c37c772eb0,SkillInfo,Gain a 50% resistance to the last type of damage taken.
+Enemy_LGT_Divine Door,1cbc04de-250c-4e83-aa54-d317f77990a9,SkillInfo,Teleports the caster to the target location in a flash holy light.  Unaffected by increased range modifiers.
+Enemy_LTN_Discharge,820e764a-7dd5-43f2-ac3d-7c566f044bd0,SkillInfo,Deals *0 lightning damage within 3 hexes of the caster. 
+Enemy_Melee_Fissure,ecb99317-902d-4a6e-950a-b7fa77357b51,SkillInfo,Open the earth in a line spawning deadly fissures that deal *0 fire damage.
+Enemy_Monster Summoning IV,ae16210c-0f41-4aa0-bffa-d2e2fbf41479,SkillInfo,Summon a powerful champion to fight for you.
+Enemy_Obsidian Strike,edb7226f-44c7-4652-91db-59ccc020f7c4,SkillInfo,Deals *0 fire damage to all foes within 2 hexes of your character.
+Enemy_Overgrow,be0d4b34-5639-49f4-b081-4d17a203b50f,SkillInfo,Increases damage dealt and health by 25%.
+Enemy_Passive_Cannibalism,f19f1ce4-1057-4c73-b70e-fa614775a8ea,SkillInfo,Heal for you for 20% of your maximum health when an ally or an enemy dies.
+Enemy_Passive_Hellfire,e5a9a33b-2d7e-435f-8b3a-78df81d9d63c,SkillInfo,Engulfed in Hellfire. Each stack of @heat@ applied to enemies applies [0] fire damage per turn. Grants Immunity to @heat@ and @chilled@.
+Enemy_Passive_Molten Plating,ecb80244-d1db-412d-9fc6-fa08d722c11d,SkillInfo,Reduces damage taken by 40%.
+Enemy_Passive_Obsidian Plating,a25c3b59-1e44-445d-a5f9-ccf0308a4f19,SkillInfo,Reduces damage taken by 50%.
+Enemy_Passive_Pack Hunter,775596bf-10fb-4ce0-be22-20ed24a94a1b,SkillInfo,For every ally within 1 hex of you gain 40% @increased Damage@.
+Enemy_Passive_Sandstone Plating,ab37d047-ff36-47aa-9d28-1c59e61308cd,SkillInfo,Reduces damage taken by 35%.
+Enemy_Poison Thorns,ab31b2d3-c7fc-40f8-ac12-57e5a9a92f60,SkillInfo,Wreaths the target in poisonous thorns.  Attackers take 2 stacks of poison.
+Enemy_Poison Vines,ebfc1ebd-ad8e-427a-92b4-8cb53109912a,SkillInfo,Cripples all enemies and applies 5 stacks of poison.
+Enemy_Rage of the Dwarf King,cc51659e-13f6-4fc0-bef4-9039afc8dd0b,SkillInfo,Increases damage dealt by 25%. Increases damage taken by 25%.
+Enemy_Rampage,7482d0c2-c135-4eac-8093-f2fa905f9774,SkillInfo,Increases damage dealt and taken by 50%. Grants 1 additional Action Point
+Enemy_SHD_Blood Frenzy,fc48cd99-fadb-43c4-98ee-1257b86bb01c,SkillInfo,Increases damage dealt and life steal by 25%.
+Enemy_SHD_Bone Explosion,ee696d5f-0cca-4f7e-a963-850112b48b56,SkillInfo,The caster creates an explosion of bone dealing *0 physical damage within 2 hexes of the selected target. Applies 2 stacks of bleeding.
+Enemy_SHD_Energy Drain,28d912ed-a0a3-46f0-9fb1-b6e47c2c15c3,SkillInfo,Removes 10% of the target's max mana. Deals [0] shadow damage.
+Enemy_SHD_Grave Slam,318b4735-3421-4859-8a17-633903769823,SkillInfo,Devour the life force of all enemies within 2 hexes dealing [0] Shadow Damage and reducing 20% of enemy @Maximum Health@ for each enemy effected.
+Enemy_SHD_Poison Cloud,78c03335-9a0e-45a8-ac57-f14636d98215,SkillInfo,The caster creates an poison gas cloud that applies 5 stacks of poison within 2 hexes of the selected target.
+Enemy_SHD_Poison Cloud Melee,b6ac1140-f2ed-463b-9bfa-669005e9773b,SkillInfo,The caster creates an poison gas cloud that applies 4 stacks of poison within 2 hexes of the selected target.
+Enemy_SHD_Raise Damned Fiend,f694f2c3-b50d-48f3-9420-2baef7b59f2a,SkillInfo,Summon a Damned Fiend to fight by your side.
+Enemy_SHD_Raise Mindless Skeleton,072c9434-b536-43b1-8f69-188de61e101b,SkillInfo,Summon a mindless skeleton to fight by your side.
+Enemy_SHD_Raise Skeletal Attendant,27088443-4986-4713-948d-63a5dc93c4a4,SkillInfo,Summon a Skeletal Attendant to fight by your side.
+Enemy_SHD_Raise Skeletal Conjuror,f7b8472a-73ba-43f1-9029-88cb3987a815,SkillInfo,Summon a Skeletal Conjuror to fight by your side.
+Enemy_SHD_Raise Skeletal Henchman,c3fc8972-758a-486e-b017-791046a3d05f,SkillInfo,Summon a Skeletal Henchman to fight by your side.
+Enemy_SHD_Raise Skeletal Lackey,8332c788-9c64-45a9-a3b3-981b4de76f83,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+Enemy_SHD_Raise Skeletal Minion,df6cf67e-4529-4611-9484-0f057ba88c1d,SkillInfo,Summon a Skeletal Minion to fight by your side.
+Enemy_SHD_Raise Skeletal Servant,35ed1b27-e36b-4821-994c-fccfbc34f43c,SkillInfo,Summon a Skeletal Servant to fight by your side.
+Enemy_SHD_Trouble Mind,547cd3ce-942a-43ea-b714-084362c786f6,SkillInfo,The caster creates an poison gas cloud that applies 5 stacks of poison within 2 hexes of the selected target.
+Enemy_Spore Cloud,7adbae91-d67b-4845-b17a-928e709f0c9f,SkillInfo,The caster creates an poison gas cloud that applies 4 stacks of poison within 2 hexes of the selected target.
+Enemy_Summon Boar,06dc1ea5-3258-48c2-981e-40350cc5f390,SkillInfo,Summon boar to fight by your side.
+Enemy_Summon Efreet - Heal,4f9354a1-ca24-42bc-9d95-e9a365f3b68e,SkillInfo,Wish to restore life.
+Enemy_Summon Efreet - Storm,5e62e2b7-b628-4125-8ac4-9e867eaddfaa,SkillInfo,Wish for a powerful storm to rain down upon your foes.
+Enemy_Summon Efreet - Summon,91a45682-15ff-4c66-9d6d-a3514f67e389,SkillInfo,Wish for a powerful monster to fight by your side.
+Enemy_Summon Tundra Wolf,41ae570b-6733-4015-b400-59ec052c4be8,SkillInfo,Summon a Tundra Wolf to fight by your side.
+Enemy_WAR_Cleave 1,fba6c3de-ea7d-43b8-b0e7-bace8fccdff2,SkillInfo,Swing in a 180 degree arc striking all foes for *0 weapon damage.
+Enemy_WAR_Cleave 2,1969efab-7881-415b-8808-948d878075ae,SkillInfo,Swing in a 180 degree arc striking all foes for *0 weapon damage.
+Enemy_WAR_Earth Spike,f148dd2c-f2ba-4151-b178-64109e0a953a,SkillInfo,Applies {STA=Stun} to all enemies.
+Enemy_WAR_Ground Slam,522370b1-8846-45d1-8a76-fe2a31c0bdd2,SkillInfo,Deals *0 fire damage to all foes within 2 hexes of your character.
+Explosive Burning Ground,1fadf982-3c1f-48b2-af8c-654d7d6d5e1f,SkillInfo,Ignite an area in flames. Enemies take *0 fire damage each turn they remain on burning ground.
+FIRE_1_A1_Fire Shield,5b6ec9f3-e40d-48f9-84a5-f0b86982d366,SkillInfo,Wreaths the target in flame granting 10% @fire resistance@.  Attackers take *0 fire damage.
+FIRE_1_A2_Fireblast,eb51277a-7757-4487-9840-c9f9a9a99f72,SkillInfo,Hurls a bolt of fire dealing *0 fire damage to a single target. 
+FIRE_1_A3_Immolate,d17f236d-ce6e-4b1e-95a4-20bdc97e6b5f,SkillInfo,Burns the target for *0 fire damage each turn.
+FIRE_1_P1_Burning Reach,5cbfa82e-8475-4390-aad9-f68e6c47ffb8,SkillInfo,Increase the range of all non-melee abilites by 1 hex. 
+FIRE_1_P2_Fire Borne,640b54a5-36af-417b-82b4-a221afab159f,SkillInfo,Increases @fire resistance@ by 10%.
+FIRE_1_P3_Hot Head I,126bb043-6548-4075-bca8-77e5f90fe992,SkillInfo,Increase all Damage and Healing by 8%. 
+FIRE_2_A1_Cauterize,7f89aae2-820b-4ef5-9280-992d75eba7c6,SkillInfo,Removes all negative statuses from friendly target but inflicts 10% of target's maximum health as fire damage. Can be used when Disabled.
+FIRE_2_A2_Fireball,bc0660c5-3a8c-48be-a437-880b2541871c,SkillInfo,Hurls a ball of flame dealing *0 fire damage to all targets in range.
+FIRE_2_A3_Enchant Fire,3db67bff-d0ea-4430-ba72-ba1388f3b6c2,SkillInfo,Enchants the target's weapon to add *0 fire damage to attacks. 
+FIRE_2_A4_Burning Ground,6f8d77e8-aec2-49ee-8656-864e4ed013ea,SkillInfo,Ignite an area in flames. Enemies take *0 fire damage each turn they remain on burning ground.
+FIRE_2_P1_FireStarter,6119e522-4697-4314-94dc-83253a2c9d87,SkillInfo,All enemies now start the battle with 4 stacks of @Heat@. 
+FIRE_2_P3_Hot Head II,72a6afb2-c7e6-4918-a1d3-4f08680e2b73,SkillInfo,Increases Damage and Healing by an additional 12%. 
+FIRE_3_A1_Detonate,cfd7e41e-9bc9-4fd3-81ff-b7855d26b561,SkillInfo,Deals *0 fire damage to all foes within 2 hexes of your character.
+FIRE_3_A2_Haste,48793549-36dc-4718-a714-6a49bd8ccba4,SkillInfo,Target gains an additional action this turn. Applies {STA=Exhaustion}.
+FIRE_3_A3_Aura of Flame,8fae3562-a68f-4d52-bfbe-395f1a0c01c5,SkillInfo,Continually deals *0 fire damage to enemies within 3 hexes of your character.
+FIRE_3_P1_Kindling,a7ed774f-59e7-4770-8c44-dd255f493e0b,SkillInfo,Gain an additional action the first turn of battle. Applies {STA=Exhaustion}.
+FIRE_3_P2_Fuel for the Flames I,4b4eb5be-2281-4942-a191-22f777e2042b,SkillInfo,Increase the mana cost of all skills by 20% and increase the power of mana using skills by 40%.
+FIRE_3_P3_Lasting Flame,659c3e1a-fe63-40cb-a26e-f81931d31e95,SkillInfo,@Heat@ lasts 2 addtional turns.
+FIRE_4_A1_Meteor,ec49bce6-5bcd-478d-acd3-d4fc2f3aae7b,SkillInfo,Call down a ball of fire to smash your enemies. Deals *0 fire damage within 2 hexes. Fire remains on the impacted area dealing *1 fire damage per turn.
+FIRE_4_A2_Overwhelming Power,e5e772c3-0f7f-4f5b-8e75-02249e7c182b,SkillInfo,Increases the damage of your next damaging action by 100%.
+FIRE_4_A3_Fissure,e9bd516a-3bf1-468a-ae2d-17d960b0daab,SkillInfo,Open the earth in a line spawning deadly fissures that deal *0 fire damage.
+FIRE_4_P1_Flash Fire,971efc39-f001-4564-b159-2584e105f04b,SkillInfo,Reduces the cooldown of all fire spells by 1. 
+FIRE_4_P2_Fuel for the Flames II,4ded356a-facc-4408-87b0-99b00cb2fcc5,SkillInfo,Increase the mana cost of all skills by an additional 30% and increase the power of mana using skills by an additional 60%.
+FIRE_4_P3_Fever,143a153b-af2f-4105-9936-f224dd9498d5,SkillInfo,Mana costs are now paid in Health instead.
+FIRE_5_A1_Meteor Shower,b601e400-41c1-4c59-a801-9d9a6bb61ec8,SkillInfo,Summon a rain of meteors to bombard enemies within 4 hexes of the target location. Deals *0 fire damage 3 times.
+FIRE_5_A2_Mass Haste,2299b989-53f4-4ae3-add5-3f90e694ed7e,SkillInfo,All allies gain an additional action this turn. Applies {STA=Exhaustion}.
+FIRE_5_A3_Fire Storm,a59edd2b-ccde-4cf6-9603-3268cd137609,SkillInfo,Hurls fire balls at 3 different targets dealing *0 fire damage within 2 hexes of each target.
+FIRE_5_P1_Fickle Flame,3f0045d0-033b-4f98-ab04-819eda13e7d1,SkillInfo,"Each time a damage or healing skill is cast, it recieves a random effectiveness modifier from 50% up to 250%. "
+FIRE_5_P1_Flame Lash,51751d00-c652-4a6a-8792-8b6baa755447,SkillInfo,Your fire spells deal 10% more damage per stack of heat on targets.
+FIRE_5_P2_Avatar of Flame,ac488fd4-a38f-4644-bb03-25c79513ae36,SkillInfo,Each stack of @heat@ now applies [0] fire damage to the target per turn.
+Grievous Bite,c629b035-ae09-4fbe-b0a1-8a43469da2f9,SkillInfo,Deals *0 weapon damage. Applies {STA=Disabled} for 1 turn. 
+Grizzly_WAR_Ground Slam Stunning,381c3113-8240-49df-b656-781591c614c5,SkillInfo,Deals *0 fire damage to all foes within 2 hexes of your character.
+LGT_1_A2_Regenerate,f7786340-63ea-4097-8a48-8823ce02cba9,SkillInfo,Target restores *0 health per turn. 
+LGT_1_A3_Elemental Protection,9f51dcd4-f90f-4c4c-b9f7-414e7fcd8ea7,SkillInfo,Increases target's @elemental resistance@ by 15%. 
+LGT_1_P1_Blessed By Light I,f3d22122-6b74-4eb0-8df4-4b6354dcd69e,SkillInfo,Mana costs reduced by 10%.
+LGT_1_P2_Empowered Light I,6734cfa8-5699-4014-a4d7-7ae2b359d1e8,SkillInfo,Increases Holy Power and Healing Received by 10%.
+LGT_2_A1_Bless,2582ea06-e53a-49f0-95e5-81b8d48ec8d1,SkillInfo,"Bless all allies within 5 hexes.  Increases @damage@, @maximum health@, and @maximum Mana@ by 10%."
+LGT_2_A2_Shield of Light,0a32ea87-3aa6-4bfa-86f8-da39a5b3aafd,SkillInfo,Calls down a shield that protects the target absorbing *0 damage. 
+LGT_2_A3_Blinding Light,bed3679a-0022-447f-9a02-91335a600adc,SkillInfo,Summons a radiant light applying {STA=Blind} to the target dealing *0 Holy damage.
+LGT_2_A4_Seal of Protection,8613b019-bdc8-49ce-9ea3-3fb373bda1de,SkillInfo,Decreases damage taken by 10% for you and allies within 3 hexes.
+LGT_2_P1_Blessed By Light II,4318fd54-4e40-4bda-a310-3f6d2d664422,SkillInfo,Mana costs reduced by an additional 15%.
+LGT_2_P2_Empowered Light II,83ce3706-dea3-404f-9648-3b43b4ff4737,SkillInfo,Increases Holy Power and Healing Received by an additional 15%.
+LGT_2_P3_Glory,c3258fdc-4979-49ba-9209-660144b2425d,SkillInfo,The first time you recieve fatal damage in battle you are revived with 1 health and become immune to all damage for 1 turn.
+LGT_2_P4_Kindred Spirit,3fc3a3ec-1bf0-41dc-a85f-d470c64edb69,SkillInfo,All healing you do to others also heals you for 20% of the amount healed.
+LGT_3_A1_Light's Beckon,ac37ac7a-4f2d-4eb5-9586-7639777c8359,SkillInfo,Teleport any target on the battlefield within 3 hexes of your character.
+LGT_3_A2_Mass Cure,9cb9aac5-3cc5-4765-a967-11f5720e549f,SkillInfo,Restores *0 health to all allies within 2 hexes of target.
+LGT_3_A3_Purify,cc749d60-f5c3-4ea3-9a3a-bbfa95625fde,SkillInfo,Removes all negative statuses from the target. Can be used when Disabled.
+LGT_3_A4_Seal of Might,a34a88a4-d845-4c9c-b739-6e2be540458b,SkillInfo,Increase damage of all allies within 3 hexes by 30%.
+LGT_3_P1_Light's Endurance,2bd96744-e934-4891-a4e0-cffb1f08f359,SkillInfo,Increase @vitality@ by 20%.
+LGT_3_P2_Light's Strength,b22fceef-4110-46ee-a9d2-12e9dd9f8d82,SkillInfo,Increase @might@ by 20%.
+LGT_3_P3_Light's Brilliance,6794f244-500f-48b8-8cad-ea53e9a69c9f,SkillInfo,Increase @intelligence@ by 20%.
+LGT_3_P4_Light's Celerity,646f7772-2741-4b68-ba82-96b32490b640,SkillInfo,Increase @dexterity@ by 20%.
+LGT_3_P4_Light's Intuition,3a2db55c-1c97-40ea-bc24-8537cd1fbd6d,SkillInfo,Increase @reflex@ by 20%.
+LGT_4_A1_Divine Intervention,a449e351-7941-451a-9278-c4aec2cfe660,SkillInfo,Restores the target to full health.
+LGT_4_A2_Holy Ground,cc22f3c2-435d-41ce-8deb-882fdcf513f0,SkillInfo,Consecrate an area of ground to heal allies that stand upon it. Heals *0 per turn for 3 turns. 
+LGT_4_A3_Shield of Retribution,4edbe07a-c899-4f5f-aed8-0417926f03bf,SkillInfo,"Conjures a shield imbued with holy flame absorbing *0 damage. Upon shield depletion, it explodes and deals *0 fire damage to all foes in a 3 hex radius."
+LGT_4_P1_Lingering Light,578d3c0a-5eda-4b9f-9931-043decd33a17,SkillInfo,"Any target you heal with Cure, Regenerate, Healing Hand, Mass Cure, or Divine Intervention also recieves an additional healing over time effect restoring *0 health for 3 turns."
+LGT_4_P2_Quickening,9732b23a-50aa-471c-8495-729c6a9667be,SkillInfo,"Every time one of your Light skills is cast on an ally, one of the ally's spells has it's cooldown lowered by 1 turn.  This effect can only happen once per turn."
+LGT_4_P3_The Good Doctor,803ae361-6d63-423f-bb21-42b833363960,SkillInfo,Reduces the cooldown of all Light spells by 1.
+LGT_5_A1_Ascendancy,75ed1c62-f8d7-426d-b063-494aeebbeed5,SkillInfo,Increases the target allies' stats by 20%.
+LGT_5_A2_Seal of Salvation,cb513d38-5c32-4055-9ebd-e141ebb8dce4,SkillInfo,All allies within 3 hexes of you heal for *0 per turn. 
+LGT_5_P1_Redemption,c7d0e84a-86a7-44e6-bb4f-89352e602393,SkillInfo,Redeem the soul of the first character to die in your party.  The target's health and mana are fully restored.  Does not affect summoned creatures.
+LGT_5_P2_Salvation,19a44fd6-8b15-43b4-8000-399e10653e3e,SkillInfo,"Any target you heal with Cure, Regenerate, Healing Hand, Mass Cure, or Divine Intervention also recieves {STA=Salvation}.  Lasts 3 turns."
+LGT_5_P3_Wrath of the  Righteous,3c3533f9-21cf-46c9-957d-c6b957b7716e,SkillInfo,Healing skills in the Light tree can now deal damage to enemies as well as heal allies.
+LTN_1_A1_Dazzling Darts,165880b6-4e75-493b-94d7-31cf5936d79b,SkillInfo,Shoots 3 darts of electricity each dealing *0 lightning damage.
+LTN_1_A2_Shock,122d020e-36ff-459e-a059-09079496fc22,SkillInfo,Reaches out and shocks the target dealing *0 lightning damage. Applies {STA=Disabled} to the target.
+LTN_1_A3_Lightning Shield,a13c0d5e-20de-47e7-b52d-4432ff174efe,SkillInfo,Increases @Lightning Resistance@ by 10%. Attackers take *0 lightning damage.
+LTN_1_P1_Storm Weathered I,af8a7171-de29-4cd5-bbed-6e0ce14f9c39,SkillInfo,Increase all @elemental resistances@ by 5%.
+LTN_1_P2_Stormbringer I,e70f397a-e1b1-432b-89ed-7598800886b5,SkillInfo,Increases @critical hit chance@ by 5%.
+LTN_1_P3_Thunder Borne,923e5c13-7549-48c5-a3bf-dfb5bf59b4b3,SkillInfo,Increases @lightning resistance@ by 10%.
+LTN_2_A1_Teleport Self,383537a6-d8c2-43b5-bce1-21ceb372f558,SkillInfo,Teleports the caster to the target location in a flash of lightning.  Unaffected by increased range modifiers.
+LTN_2_A2_Discharge,387f28b4-84e5-4621-90a8-0f944eb7840c,SkillInfo,Deals *0 lightning damage within 3 hexes of the caster. 
+LTN_2_A3_Twister,8ef72136-d60a-404f-bfdc-2f395c35c813,SkillInfo,Summons a raging tempest that deals *0 lightning damage in a line.  Targets hit are {STA=Crippled} for 2 turns.
+LTN_2_A4_Enchant Weapon Lightning,b7c19599-bcef-47c9-b32e-4b558778fe31,SkillInfo,Enchants the target's weapon to add *0 lightning damage to attacks. 
+LTN_2_P1_Storm Weathered II,3e72ffd3-ed92-4010-bffb-cb09601b724f,SkillInfo,Increase all @elemental resistances@ by an additional 8%.
+LTN_2_P2_Stormbringer II,dbf885d4-cf92-4eee-bfa2-62612db6ea24,SkillInfo,Increases @critical hit chance@ by an additional 8%.
+LTN_2_P3_Gathering Storm,74b9fdfb-985b-4df8-a179-f759c2750baa,SkillInfo,Increases @maximum mana@ by 20%.
+LTN_3_A2_Thunder Bolt,c051afe8-be0a-4885-a517-b99544629123,SkillInfo,Summon lightning from the sky to strike an area dealing *0 lightning damage. 
+LTN_3_A3_Teleport Other,e8d3e3c9-e79a-4c09-9fce-c86dc1da3e21,SkillInfo,Teleports the target to the location of your choosing in a flash of lightning.  Unaffected by increased range modifiers.
+LTN_3_A4_Aura of Lightning,df7e0633-bc4d-48e6-ae0b-2e125f1625a7,SkillInfo,Each time an action is made by an enemy within the aura they suffer *0 lightning damage. 
+LTN_3_P1_Storm Brewing,390fc09a-5649-4ab9-9a0d-1b6ac1390c69,SkillInfo,Each stack of @shocked@ you've applied increases your @critical hit chance@ by 1%.
+LTN_3_P2_Energy Shield,f61e81b2-a830-4eb3-8ab9-2fe1fd39ab7c,SkillInfo,90% of the damage taken is lost in mana instead of health.
+LTN_4_A1_Thunder Storm,57c6b493-41d3-4b00-95fb-62f7216fee80,SkillInfo,Summon a thunderstorm over a large area that deals *0 lightning damage every turn to enemies within it's range.
+LTN_4_A2_Shocking Shackles,db92c83a-5dc8-4b43-af4f-c5ba78a97228,SkillInfo,Deals *0 lightning damage.  Applies {STA=Stunned}.
+LTN_4_A3_Overload,6ec59444-b577-4b9c-95d3-f559ede7d97b,SkillInfo,Gives the target 100% Critical Hit Chance for 1 turn. 
+LTN_4_A4_Static Field,52654feb-9133-4228-a511-562bf4722ee8,SkillInfo,Averages all the current health percentages of targets within 3 hexes and redistributes them to be even. 
+LTN_4_P1_Heavy Rains,3325d5e1-03e6-4e84-b763-fd843d694b87,SkillInfo,Each point of @intelligence@ now grants .1% @critical hit chance@ and 1% @critical hit damage@.
+LTN_4_P2_Recharge,9ea6ac03-3597-4b5c-aa0d-a461c4c33bf8,SkillInfo,"You have a 33% chance to completely refund the mana cost spent while using abilities. When mana is refunded this way, a random ability will have its cooldown lowered by 1."
+LTN_5_A1_Thunder Wrath,89425965-a9af-443d-b1d0-d91580123be4,SkillInfo,Summons 4 thunder bolts targeting enemies at random within a 10 hex radius.  Each bolt deals *0 lightning damage to foes within 3 hexes of its blast.
+LTN_5_A2_Energy Cannon,2c65aec7-7a9b-429d-8545-f1d8e4a5823f,SkillInfo,Deals *0 lightning damage in a 6 hex line 10 times.
+LTN_5_P1_Conduit,d878dd1f-6337-4de2-aa82-5c851ef2ac22,SkillInfo,Gain an additional action each turn.
+LTN_5_P2_Thunder Struck,f802b4ff-21ab-4673-a60d-32df4f8f3579,SkillInfo,Your lightning damage has a 10% chance to conjure a thunderbolt on a random enemy dealing *0 lightning damage within 2 hexes of its blast.
+MNK_1_A1_Front Kick,6b4b2cdf-dcc2-48f9-bcb9-5c8ce58acb2b,SkillInfo,Kicks the target dealing *0 physical damage and knocking the target back up to 3 hexes.   Any enemy hit by the target also receives *0 damage.
+MNK_1_A2_Incapacitate,6f3e373d-b514-49cb-b4b2-ba600b14b16e,SkillInfo,Incapacitates the target applying {STA=Sleep} for 2 turns.
+MNK_1_A3_Chi Strike,1b530dbe-2bf5-4b6c-bd54-f70b895eeb28,SkillInfo,Strike an enemy dealing *0 weapon damage.  Reduces the targets damage dealt by 20% for 1 turn.
+MNK_1_P1_Momentum I,20f54fae-a773-4a20-8854-02deaa605f0c,SkillInfo,Each hex moved grants a stack of Momentum increasing the damage or healing of your next ability by 2%.
+MNK_1_P2_Contemplation I,82c200b1-d500-46f0-8a6f-2f5ae93928e6,SkillInfo,Max Mana increased by 10%.
+MNK_1_P3_Masochism I,55172890-cfb6-41ea-b69b-4f8c4e72ca41,SkillInfo,Gain a stack of Masochism each time you take damage. Each stack increases the damage/healing you deal by 2%. Lasts 1 turn. 
+MNK_1_P4_Endurance I,b4721d01-d578-47fe-bea9-39b75c11c322,SkillInfo,Max Health increased by 10%.
+MNK_2_A1_Stunning Kick,57362923-3f2b-474e-a693-32bb4394c9c9,SkillInfo,Kicks the target dealing *0 physical damage and stunning them for 1 turn.
+MNK_2_A2_Force Kick,26b56150-2f67-4359-a6d2-3fe0a6cd2a5b,SkillInfo,Kicks the target dealing *0 physical damage and knocking the target back up to 5 hexes.   Any enemy hit by the target also receives *0 physical damage.
+MNK_2_A3_Paralyzing Strike,cddc924f-d7e9-496e-b251-6b1f287b73e6,SkillInfo,Strike an enemy dealing *0 weapon damage.  Stuns the target for 1 turn.
+MNK_2_A4_Focused Strike,eedc261a-8bc6-48f8-91b2-e1e0587b022e,SkillInfo,Strike an enemy dealing *0 weapon damage. Applies a debuff that increases the damage this target takes from all sources for 2 turns by 20%.
+MNK_2_A5_Pain Suppression,375f6111-c59d-4c26-8459-1b4b36cbb062,SkillInfo,The target's Damage Reduction is increased by 50% for 1 turn.
+MNK_2_P1_Momentum II,e4b667c5-247f-437c-8dc0-a0cb6947d0ee,SkillInfo,Each hex moved grants a stack of Momentum increasing the damage or healing of your next ability by an additional 3%. 
+MNK_2_P2_Contemplation II,3c48cbdf-dc3e-4bd8-a9ee-d72ca3ffaeab,SkillInfo,Max Mana increased by an additional 15%.
+MNK_2_P3_Masochism II,851b4849-5624-4847-b9f3-0a6e014b5513,SkillInfo,Gain a stack of Masochism each time you take damage. Each stack increases the damage/healing you deal by an additional 3%. Lasts 1 turn. 
+MNK_2_P4_Endurance II,7d586ac4-62ee-4e66-9509-9db6bbbb67fc,SkillInfo,Max Health increased by an additional 15%.
+MNK_3_A1_Dashing Strikes,1bad1d3d-5f99-498c-a838-6b1a4ac75719,SkillInfo,Dash to an enemy dealing *0 weapon damage then quickly dash to an enemy within 2 hexes to strike again. Strikes up to 4 times.
+MNK_3_A2_Falcon Dash,45907c14-9772-4d47-b019-d50bb9e6425d,SkillInfo,Dash to the target area and dealing *0 weapon damage to affected area.
+MNK_3_A3_Meditation,5e3fd063-311f-4e7b-9723-2fcc0c43d1e3,SkillInfo,Put the target ally into a meditative state restoring 20% of max health and mana. 
+MNK_3_A4_Sweeping Kick,be4f4d5a-599b-464c-b37b-d70907820b52,SkillInfo,Deal *0 physical damage to all enemies within 1 hex. Knocks back all enemies up to 3 hexes. Targets are crippled for 1 turn. 
+MNK_3_P1_Combo Breaker,9f5758b4-7511-4326-a426-0b531cceadc4,SkillInfo,Basic attacks grant Combo Breaker. Combo Breaker gives your next non basic attack ability 10% damage and healing per stack. Stacks are consumed on use. 
+MNK_3_P2_Body and Soul,184c8456-b735-4b54-99d7-783ce74bec61,SkillInfo,Intelligence now gives 5 Magic Armor per point and Vitality now gives 5 Armor per point.
+MNK_3_P3_Willpower,783f7e26-6d2d-4597-af72-c5f41ce6f0df,SkillInfo,Every 10% of your max health you are missing increases damage reduction by 4%.
+MNK_3_P4_Weapon of Choice,b535409e-d753-41a2-9743-2a427c07f376,SkillInfo,"3% of your total attribute value is added to your character as @Additional Weapon Damage@. 
+
+Current Bonus: [0]"
+MNK_4_A1_Soul Cleanse,753ecaa8-bcba-40de-a44c-df7ca092b772,SkillInfo,Removes all negative status effects from target ally. Each status effect removed heals the target for 10% of their max health.   Can be used when Disabled.
+MNK_4_A2_Cyclone Kick,05899704-90a5-4b06-b141-5fb7b10c02b6,SkillInfo,Deals *0 physical damage. Pulls enemies within 4 hexes towards you. Targets are crippled for 1 turn. 
+MNK_4_A3_Power Strikes,4409fec4-696a-48f2-ba64-5305247c2f6c,SkillInfo,Dash to an enemy dealing *0 weapon damage then quickly dash to an enemy within 2 hexes to strike again. Strikes up to 4 times.  Each time you hit increases the damage of Power Strikes by 50%.
+MNK_4_A4_Dodging Strikes,df3b62f7-9e84-44e1-bc3f-10e9763bdcda,SkillInfo,Dash to an enemy dealing *0 weapon damage then quickly dash to an enemy within 2 hexes to strike again. Strikes up to 4 times.  Each time you strike a target it increases your dodge chance by 8%.  Lasts 2 turns. 
+MNK_4_P1_Strength,72730fff-2170-46e2-9a5a-3c26c1baee98,SkillInfo,Increases @Might@ and @Vitality@ by 15%.
+MNK_4_P2_Speed,3466e4e5-7649-496f-a795-850aecb1a284,SkillInfo,Increases @Dexterity@ and @Reflex@ by 15%.
+MNK_4_P3_Crash and Flow,4a59faf8-462f-4fc1-a42e-e66fcc79739c,SkillInfo,Dodging an attack increases your damage dealt by 10%. Stacks 5. Lasts 1 turn.
+MNK_5_A1_Many Sided Strike,e34d2162-c2e9-4485-8b76-527674a43ef6,SkillInfo,Hit enemies in the target area 5x randomly.  Deals *0 weapon damage per hit. 
+MNK_5_A2_Quaking Fist,37dc1b4a-82d1-41d0-91b5-b8768ec8c308,SkillInfo,Deals *0 physical damage to all foes within 3 hexes. 
+MNK_5_P1_Perfected Soul,b6cb4d22-fa91-4b17-8c69-fdd47bed405f,SkillInfo,"Increases all attributes by [0]. In addition, 10% of your highest attribute value is added to all other attributes.
+
+Current Bonus: [1]"
+MNK_5_P2_One Punch Monk,1e089acc-84fc-4d8f-8432-915e5daa7d9d,SkillInfo,"The first damaging or healing ability you use on your turn it is has its effectiveness tripled, after which you are unable use any more damaging or healing abilities that turn."
+Molten Matron - Summon Scorplings,0c63ecaa-492b-475e-bee8-fe5415492379,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+Molten Sting,3c7a0115-ce0f-4dea-9164-fc88399846e4,SkillInfo,Kicks the target dealing *0 damage and stunning them for 1 turn.
+Momentum III,052f0412-6bfa-4e2e-b531-c2b1445d86e0,SkillInfo,Each hex moved grants a stack of Momentum increasing the damage or healing of your next ability by an additional 5%. 
+Move Object,8549bc76-2b0e-4f55-9779-e17defc5e559,SkillInfo,Transport a movable object in the battlefield.
+Nature Summoning II,4b32af59-5514-4863-972c-6586bce62f71,SkillInfo,Summons .
+NAT_1_A1_Nature Summoning I,7bf06d05-ce54-4bf5-bf4d-35da956d3bba,SkillInfo,"Summons a Raven, Coyote, or Raccoon to fight for you."
+NAT_1_A1_Nature Summoning I  [Pack Summoning],307e3f9b-cd71-4ec1-88da-c0f84c759074,SkillInfo,Summons a Timber Wolf to fight for you
+NAT_1_A2_Entangle,5a4f990a-3e8d-43cd-8186-b04b10d2154a,SkillInfo,Deals [0] physical damage and applies {STA=Immobilized} for 1 turn and @2@ stacks of {STA=Poisoned}.
+NAT_1_A3_Faerie Swarm,218b2d73-387b-41f1-b791-4079d4316fea,SkillInfo,Faeries swarm the target clawing and biting for *0 physical damage and applying 1 stack of {STA=Bleeding}  each turn.
+NAT_1_A4_Brambles,5e4dbe13-58ca-4ee5-bba5-78041c8fe660,SkillInfo,Summon brambles to block 4 hexes. Attackers will take physical damage when striking the brambles. Lasts 4 turns.
+NAT_1_P1_Pack Hunter I,da33e5e2-4c72-4806-b2c4-ffe57755933d,SkillInfo,For every ally within 1 hex of you gain 8% @increased Damage@.
+NAT_1_P2_Adaptation I,267937da-0635-4d70-af98-21e3cbd27499,SkillInfo,Gain a 6% resistance to the last type of damage taken.
+NAT_1_P3_Beast Master I,6c4546b0-f8a6-406a-9475-179ac57153e5,SkillInfo,Summons deal 10% more damage and have 10% more health. 
+NAT_1_P3_Thorns I,a9ecc771-d9ee-4dad-9cf9-310d8eccb1b9,SkillInfo,Grants [0] Return Physical Damage.
+NAT_2_A1_Venomous Skin,1e0cfa0e-bad0-4f36-bf17-0768c76478e3,SkillInfo,Causes the skin of a target ally to secrete poison. Attacking enemies receive 3 stacks of {STA=Poisoned}. Lasts 3 turns.
+NAT_2_A2_Living Armor,1d723539-3738-422b-b5cf-7193a0878418,SkillInfo,Envelopes the target in living vines that increase @armor@ and @magic armor@ by [0] and causes the target to regenerate *0 @health@ each turn.
+NAT_2_A4_The Bad Bloom,908596ba-d2f0-486c-8974-bb648d9d7f2e,SkillInfo,Creates a magic flower that applies 2 stacks of {STA=Poisoned} per turn to enemies in range.
+NAT_2_P1_Pack Hunter II,ab4cf5ab-6924-4cda-ab47-93735e785c77,SkillInfo,For every ally within 1 hex of you gain an additional 12% @increased Damage@.
+NAT_2_P2_Adaptation II,842ef055-44d4-4138-9b0b-48b8c1533b7d,SkillInfo,Gain an additional 9% resistance to the last type of damage taken.
+NAT_2_P3_Beast Master II,e7bbab62-2417-45c7-8092-f8c66224c48b,SkillInfo,Summons deal an additional 15% more damage and have an additional 15% more health. 
+NAT_2_P3_Thorns II,9beb543c-26f0-4d7b-b460-446e6b313fad,SkillInfo,Grants an additional [0] Return Physical Damage.
+NAT_3_A1_Nature Summoning II,116424f8-8a0e-409e-aeac-9a8312023a40,SkillInfo,"Summons a Stag, Wolf, or Boar to fight for you."
+NAT_3_A1_Nature Summoning II [Pack Summoning],fa759183-6200-4e4d-b8c0-943ff4653f69,SkillInfo,Summons a Tundra Wolf to fight for you.
+NAT_3_A1_Stun Spores,e1f5f37a-b0ef-4927-8de9-75fbc6bf3ff3,SkillInfo,Infects enemies with Stunning Spores applying {STA=Stun} for 1 turns.
+NAT_3_A3_Shapeshift Werewolf,2f245847-7abb-48d2-b66f-d6767ea45c45,SkillInfo,Shapeshift into a @Werewolf@. Empowers your basic attack and gain new abilities. Increases @Max Health@ by 10%.
+NAT_3_A4_The Good Bloom,27ad00f4-b115-4779-83e0-85781933df47,SkillInfo,Creates a magic blossom that regenerates [0] of @health@ and @mana@ per turn. This effect stacks. 
+NAT_3_P1_Bristles,224c1d93-c089-45b8-94f8-6d5e5b5fa11e,SkillInfo,Summons gain 50% of your return damage.
+NAT_3_P2_Contagion,f1f19d21-64b5-4e2a-80f9-3e7a29525945,SkillInfo,Your poison damage spreads to enemy targets within 1 hex of the poisoned enemy.
+NAT_3_P3_Skin Walker,fd4cfa68-ad42-4f5b-9231-73f7ae16a806,SkillInfo,Reduces the cooldown of Shapeshifting skills by 2.
+NAT_4_A1_Mass Entangle,2112128e-960f-4661-aebb-a50dc4d7760c,SkillInfo,Deals [0] physical damage and applies {STA=Immobilized} for 1 turn and @3@ stacks of {STA=Poisoned}.
+NAT_4_A1_Rage Spores,b61ec73e-7b98-4e01-813b-a2367bb97857,SkillInfo,Infects enemies and allies with Rage Spores that increase @damage dealt@ and reduce @damage reduction@ by 25% for 2 turns.
+NAT_4_A1_Sleep Spores,0e87e9e4-69a1-4ef4-84d8-e42a2af3017b,SkillInfo,Infects enemies with Sleep Spores applying {STA=Sleep} for 2 turns.
+NAT_4_A4_Rainstorm,b34e04df-711b-4303-8add-54f513cc1b72,SkillInfo,Calls down a magical rain that increases potency of Mana using abilities by 50% for allies within the area. Lasts 2 turns.
+NAT_4_P1_Circle of Life,d2b61bb2-f017-4234-bf38-b67d20e7bbbc,SkillInfo,"When an enemy dies, you have a 50% chance to spawn a Good Bloom or Bad Bloom."
+NAT_4_P2_Natural Selection,b6624501-e38b-461c-8180-5522f2e49f30,SkillInfo,When an Ally or an Enemy dies gain 5% of your max Health and Mana.
+NAT_4_P3_Call of the Wild,6161d951-49a1-485f-9e07-6fb3ea723f00,SkillInfo,Summoning skill cooldowns reduced by 1.
+NAT_5_A1_Nature Summoning III,3096d08b-a4d2-4954-8930-c202fa3b0699,SkillInfo,"Summons a Bear, Moose, or Panther to fight for you."
+NAT_5_A1_Nature Summoning III  [Pack Summoning],ab8d11da-31e3-4cc9-a4d1-ce5f5e695afa,SkillInfo,Summons a Dire Wolf to fight for you.
+NAT_5_A3_Mind Blossom,45041cfc-d8ba-4c87-8b9b-7ee36daab732,SkillInfo,Charm the enemy target for 1 turn.  Cannot target bosses.
+NAT_5_A3_Shapeshift Dragonkin,2446d269-e869-4479-b35e-c93d58a09386,SkillInfo,"Gain the ability to shapeshift into a powerful elemental @Dragonkin@. Empowers basic attack, grants new abilities, and resistance based on the color you choose. Increases @Armor@ by [0]."
+NAT_5_A3_Shapeshift Greater Werewolf,b2d332e5-4980-4a00-af0c-3958e4e22ca3,SkillInfo,Shapeshift into a @Dire Werewolf@. Basic attack and abilities are further empowered. Increases @Max Health@ by 20%.
+NAT_5_A4_Titan Bloom,ea930abb-1071-4f58-b667-1bde3627c5d0,SkillInfo,Creates a magic mushroom that increases the @Max Health@ and @Damage@ of allies within its aura by [0]%. Stacks up to 5 times.
+NAT_5_P1_Ecosystem,729b89f8-f570-4da4-8623-896bd677f02d,SkillInfo,"Every summon active increases the @Max Life@, @Damage@ and @Healing@ of you and your summons by 5%."
+NAT_5_P2_Evolution,8554865a-c039-43b9-8cc4-877d4cb1a4b2,SkillInfo,Getting hit increases max health by 5% stacking 10x. Hitting increases damage by 5% stacking 10x. Only one of the buffs can be active at a time.
+Necronomicon,520b1140-b677-4d93-9a73-32befab884b8,SkillInfo,Read from the cursed Necronomicon. Summons 3 Warriors of the Undead to fight for you.
+Necronomicon Death,1c6cc2a9-0f7e-44d0-bb6a-0e02d3e88155,SkillInfo,Devour the life force of all enemies within 2 hexes dealing [0] Shadow Damage and reducing 20% of enemy @Maximum Health@ for each enemy effected.
+Paralyzing Sting,ef57371c-316e-454e-a15f-cc67f0391a19,SkillInfo,Kicks the target dealing *0 damage and stunning them for 1 turn.
+Perfect Rage,56886cce-48f8-4a0c-9b3c-e148c07b8fba,SkillInfo,Lose control of your character for 2 turns. Increases damage by [0]%. Grants enrage.
+Petrify,5963eb40-a024-4d26-835c-4d2d9881b166,SkillInfo,Petrifies the target stunning them for 2 turns and increasing their Damage Taken by 100%. Lasts 2 turns or until they take damage. 
+Poison Bolt,21057f9e-2492-497c-adab-fb0314757b38,SkillInfo,Hurls a bolt of fire dealing *0 fire damage to a single target. 
+Raise Iron Golem,ee512cf8-e555-480b-ba29-10f5d837ce31,SkillInfo,Raise a Mighty Iron Golem to fight for you.
+Raise Servant of Abaddon,8e3fc883-c317-495a-ab69-9fa412356c10,SkillInfo,Summon a Servant of Abaddon.
+RNG_1_A1_Rally,48ff5e95-e3c3-486f-9fc6-4994863a4316,SkillInfo,Increases movement of all allies within 4 hexes by 3.
+RNG_1_A2_Companion Raven (Legacy),9548b4e1-395d-4f23-aff7-1ec02baedc2b,SkillInfo,Summon a Raven to fight your enemies. 
+RNG_1_A2_Tranquilizing Shot,1222b5d5-eec6-4f95-813a-378eac88409d,SkillInfo,Tranquilizes the target applying {STA=Sleep} for 2 turns.
+RNG_1_A3_Crippling Shot,d307e047-44c0-4d0c-bc76-7662355eb4b3,SkillInfo,Deals *0 weapon damage.  Applies {STA=Slow}.
+RNG_1_A4.5_Tracker's Mark,e58297e3-95fa-4468-bf0a-e89f3df7bb80,SkillInfo,"Gain 15% @increased damage@ and 8% @critical hit chance@ on the target.  If the target dies while Tracker's Mark is active, the cooldown is reset."
+RNG_1_P1_Eagle Eye,26e3de52-772d-4e8f-ab74-818942861795,SkillInfo,Increase the range of all ranged skills by 1 hex.
+RNG_1_P2_Survivalist I,e1b88501-223b-477a-9976-fc93ed843da5,SkillInfo,Increases @all resistance@ and @dodge chance@ by 3%.
+RNG_1_P3_Beast Master I (Legacy),f22f6abc-b3e8-47bc-9bc9-10a9901b0dd3,SkillInfo,Summons deal 10% more damage and have 10% more health. 
+RNG_1_P3_Huntsman I,79634379-8bcb-43b0-b3f6-b385e11ed93b,SkillInfo,Physical damage increased by [0].
+RNG_2_A1_Relocate,b1774775-9065-45eb-a5ff-056af7908100,SkillInfo,Jump to the target area.  Unaffected by increased range modifiers.
+RNG_2_A2.66_Pinning Shot,ff0060f6-075a-4a9e-a6dd-70d98563f14a,SkillInfo,Deals *0 weapon damage.  Applies {STA=Immobilized}.
+RNG_2_A3.33_Bleeding Shot,0b3345ec-9efb-4097-b674-73b0ae381105,SkillInfo,Deals *0 weapon damage.  Applies 2 stacks of {STA=Bleeding}.
+RNG_2_A4.17_Stalker's Mark,043b48ce-e6b3-4ba0-9258-e4d06f46b82b,SkillInfo,"Gain 25% @increased damage@ and 12% @critical hit chance@ against the target.  If the target dies while Stalker's Mark is active, the cooldown is reset."
+RNG_2_A4.88_Bounty Hunter's Mark,b05f44e2-e9aa-435a-b29d-b1012a42b466,SkillInfo,"Gain 15% @increased damage@ and 8% @critical hit chance@ against the target.  If the target dies while Bounty Hunter's Mark is active, all cooldowns are reduced by 1."
+RNG_2_P1_Precision I,4f60a338-6cc9-462d-a5c5-9331541b189b,SkillInfo,Increase @critical hit chance@ by 4%. Increase @critical hit damage@ by 16%.
+RNG_2_P2_Survivalist II,f92fd989-34d3-45cd-8adc-93b79969db03,SkillInfo,Increases @all resistance@ and @dodge chance@ by an additional 5%.
+RNG_2_P3_Beast Master II (Legacy),6669e65c-dd80-4374-8c7c-7eaa0ada8220,SkillInfo,Summons deal an additional 15% more damage and have an additional 15% more health. 
+RNG_2_P3_Disengage,df437fe6-f5be-45db-90d0-13b0dcc50f65,SkillInfo,You can move 1 additional hex each turn and no longer take opportunity attacks. 
+RNG_2_P3_Huntsman II,6cc0036b-d5fc-45b1-b541-e044ff756c47,SkillInfo,Physical damage increased by [0].
+RNG_3_A1_Long Shot,ed48796f-b3ca-4eaa-a860-d5adc5c0e911,SkillInfo,Deals *0 weapon damage.  Every hex between you and your target increases the damage of by 10%. 
+RNG_3_A2_Volley,d23c2fb6-5630-4e11-bbb7-8f03ea859596,SkillInfo,Shoot up to 5 enemies near the target area dealing *0 weapon damage per target.  The arrow can chain to targets within 3 hexes of the last target hit.
+RNG_3_A3_Blasting Shot,d080974f-ceb6-4fde-ab75-c41ba8d3b8e5,SkillInfo,Deals *0 weapon damage to all targets in area.  Targets are knocked back 3 hexes. 
+RNG_3_A3_Companion Wolf (Legacy),cc69f834-8fb6-41bb-a009-540567d1954f,SkillInfo,Summon a wolf to fight your enemies.
+RNG_3_P1_Precision II,c1669e65-8249-4494-9b7d-975327d82550,SkillInfo,Increase @critical hit chance@ by an additional 6%. Increase @critical hit damage@ by an additional 24%.
+RNG_3_P2_Quick Hands,85a9b32a-7c27-45fa-b38f-5da5e5c9a7b8,SkillInfo,Your basic attack has a 50% chance to strike twice.  Can only trigger once per turn.
+RNG_3_P4_Ranger's Gift I,c122eadb-7328-495b-a8c8-bec507469119,SkillInfo,Every hex between you and your target increases damage dealt by 2%.
+RNG_3_P5_Patient Hunter,06d9233a-e381-4819-9b53-f37a39026e86,SkillInfo,Patient Hunter gives 10% @increased damage@ and 1 @skill range@ per stack.  A stack is applied at the end of each turn.  Making any movement removes all stacks of Patient Hunter.  Stacks up to 5 times.
+RNG_4_A1_Sniper Shot,cd771d71-a7f0-4728-8c86-f105be62ea90,SkillInfo,Deals *0 weapon damage.  Every hex between you and your target increases the damage of by 15%. 
+RNG_4_A2_Called Shot,931e74d0-1ddf-4d93-9f29-7d87830d47ba,SkillInfo,Deals *0 physical damage. Every hex between you and your target increases the damage of by 10%.  Called Shot cannot be dodged or blocked.
+RNG_4_A3_Dispelling Shot,06051196-664e-4724-97e9-4f11b57f3757,SkillInfo,Deals *0 weapon damage. Removes 1 random benefical status from the target.
+RNG_4_A4_Piercing Shot,ac13e801-6192-4208-86bf-b247b37601d4,SkillInfo,Deals *0 weapon damage in a line.
+RNG_4_A5_Quick Draw,7b3baeae-8542-4f70-bd65-94340c890406,SkillInfo,Your next 3 basic attacks have no AP cost. Applies {STA=Exhaustion}.
+RNG_4_P1_Take Cover,b3453a67-1836-4578-aebe-fd0b7dd4c1e2,SkillInfo,Damage you take from enemies further than 2 hexes from you is reduced by 35%.
+RNG_4_P2_Endless Quiver,2493d8ec-0837-4436-bc9a-f48ebb619fa6,SkillInfo,Reduces all Ranger cooldowns by 1.
+RNG_4_P4_Ranger's Gift II,bb27b619-9ede-4143-877a-7d5436526dfe,SkillInfo,Every hex between you and your target increases damage dealt by an additional 3%.
+RNG_5_A1_Slaying Shot,0cabdbe9-bb23-4dff-adea-e5e49c8252ad,SkillInfo,Deals *0 weapon damage. Ignores all armor and resists. Cannot be dodged.
+RNG_5_A3_Cupid Shot,64d689e6-1a9a-485c-8fa5-02dff422fa01,SkillInfo,Charm the enemy target for 1 turn.  Cannot target bosses.
+RNG_5_A3_Impaling Shot,f92b6841-86a9-4f0f-858f-9be1bf273143,SkillInfo,Deals *0 weapon damage in a line and knocks targets back up to 4 hexes.  Any enemy hit by the target also receives [1] damage.
+RNG_5_A3_Summon Grizzly (Legacy),4ce83329-4e68-4ef5-ac60-aeb372e25794,SkillInfo,Summon a grizzly to fight your enemies.
+RNG_5_A4_Branching Shot,5c78ba1d-0174-42eb-a2f2-b8b5cf4a8060,SkillInfo,Deals *0 weapon damage. Bounces to enemies within 3 hexes. Each bounce increases its damage by 50%.
+RNG_5_P1_Mythic Reach,bec81cb3-64b7-4a7e-b460-1193f1e63a0c,SkillInfo,All ranged abilities get an additional 5 hex range.
+RNG_5_P2_Marked Prey,d1fa6eae-2970-4400-a93f-8461295973d5,SkillInfo,Attacks now apply {STA=Marked Prey}.  All stacks are removed at the end of your turn.
+Rune of Energy,ff356eb2-2261-4a5e-9f82-df75b72fdae2,SkillInfo,"Gives you 3 extra ap and all Mana Costs reduced by {25,100}%. Die at the end of your turn. "
+Rune of Refreshment,964163b0-8351-4004-a3a9-7fda444e0d43,SkillInfo,Reset all cooldowns at the cost of 75% of Max Mana.
+Shapeshift Vampire Bat,eac095f4-d0cb-4df1-b697-6a4adfb1f29e,SkillInfo,Shapeshift into a @Vampire Bat@. Gain new abilities. @Movement@ increased. Immune to @attacks of opportunity@.
+SHD_1_A1_Blind,0ed4a298-677b-4b0c-86d5-70228e8fff64,SkillInfo,Deals *0 shadow damage.  Applies {STA=Blind} for 1 turn.
+SHD_1_A2_Tainted Touch,0545349b-cb52-4a5f-92f7-7e4fcd291229,SkillInfo,"Reaches out to the target with dark energy dealing *0 shadow damage. @Life Steals@ for 12%.
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect and no ap cost abilities."
+SHD_1_A4_Raise Skeletal Archer,c002a223-c6e8-4b73-82f8-7926f4e9a883,SkillInfo,Summon a skeletal archer to fight by your side.
+SHD_1_P1_Call of the Grave,95912c7c-d6e9-4811-b884-b11644171b81,SkillInfo,Deal 20% additional damage to enemies below 50% health.
+SHD_1_P2_Necromancer I,6868aca0-18f6-4b66-a509-81977f40a52d,SkillInfo,Summons deal 10% more damage and have 10% more health.
+SHD_2_A1_Poison Cloud,51c5c7ac-97f4-43b5-a811-6b98f7c17f89,SkillInfo,The caster creates an poison gas cloud applies @4@ stacks of {STA=Poisoned} within 2 hexes of the selected target.
+SHD_2_A2_Spectral Chains,d8cf9361-eaac-4ecd-8cf9-e2f4f55b469d,SkillInfo,Deals *0 shadow damage and applies {STA=Immobilized} for 1 turn.
+SHD_2_A3_Haunt,7e0a68aa-f9bf-4e09-9f1c-26b0be272d6b,SkillInfo,"Deals *0 shadow damage to the target every turn for 3 turns. @Life Steals@ for 6%. 
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect and no ap cost abilities."
+SHD_2_P1_Thirst I,84c968c4-d3cb-418e-9f28-e19014bc6473,SkillInfo,"Increases @Life Steal@ by 4%.
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect and no ap cost abilities."
+SHD_2_P2_Dark Pact,d1318d21-a417-4d78-b0ab-ef9815cdb239,SkillInfo,Increase the effectiveness of your damage and healing skills by 30%.   Maximum health reduced by 20%.
+SHD_2_P3_Vengeful Shadows,8812a8fd-f3ef-4557-819b-e2fd553cab52,SkillInfo,Grants [0] Return Shadow Damage.
+SHD_2_P4_Necromancer II,005bdc59-d102-40d9-87f3-5d6e508f719c,SkillInfo,Summons deal an additional 15% more damage and have an additional 15% more health.
+SHD_3_A1_Soul Fracture,de92aa54-dfad-4edc-a1d5-00548a7da627,SkillInfo,Crush the target's soul dealing *0 @Shadow Damage@ increased by your Max Health. 
+SHD_3_A2_Consumption,7ee3a229-5375-4466-baa0-d9ee630756b9,SkillInfo,Devour the life force of all enemies within 2 hexes dealing [0] Shadow Damage and giving you 10% @Maximum Health@ for each enemy effected.
+SHD_3_A3_Purge,bb060d0c-2f85-49af-9c74-a6131fd459e5,SkillInfo,Removes 20% of the target's max mana and restores 20% of the caster's max mana.
+SHD_3_A4_Raise Skeletal Warrior,e47c4b4a-bf36-465f-9f2f-3496da8adb02,SkillInfo,Summon a skeletal warrior to fight by your side.
+SHD_3_P1_Thirst II,5f619ae2-0b07-4456-9d6b-b1009bd3ce8e,SkillInfo,"Increases @Life Steal@ by 6%.
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect and no ap cost abilities."
+SHD_3_P2_Reaper's Toll,5b542276-1cc4-40a1-a2ea-8ff12ea2c9b4,SkillInfo,Every enemy that dies heals you for 10% of your maximum health.
+SHD_3_P3_Hunger,8f250087-a399-4709-ad42-83435bb3f7fa,SkillInfo,Grants 10% @mana steal@.  Sacrifices 10% maximum health per turn.
+SHD_4_A1_Soul Link,455db553-430b-47c6-8f6f-a5576c034b0a,SkillInfo,All damage and healing dealt to one target is also dealt to the linked target.
+SHD_4_A2_Exorcism,2d3162db-e96a-402b-9bd2-5083b6c9d753,SkillInfo,"Deals *0 shadow damage and removes a random benefical status from the target. If a status is removed, the target suffers an additional *0 shadow damage."
+SHD_4_A4_Vampiric Aura,d6cddb50-656d-4e68-8833-f0213ed76fe3,SkillInfo,"Allies within Vampiric Aura @Life Steal@ for 5%.
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect and no ap cost abilities."
+SHD_4_P1_Leech Intelligence,f6c12f10-f0c1-473f-877a-b36839ff77a6,SkillInfo,Damage caused steals [0] points of @Intelligence@. Lasts the entire battle. Stacks up to 10 times.
+SHD_4_P2_Leech Might,63c2d3db-a0bb-41e1-98cd-c840f3bbb764,SkillInfo,Damage caused steals [0] points of @Might@. Lasts the entire battle. Stacks up to 10 times.
+SHD_4_P3_Leech Dexterity,b241ac3a-bc8b-4b21-8ccc-218d23e620ea,SkillInfo,Damage caused steals [0] points of @Dexterity@. Lasts the entire battle. Stacks up to 10 times.
+SHD_5_A1_Soul Exchange,6a064097-7504-477f-8675-6adbba0860bc,SkillInfo,"Swaps the life force of both you and a target, dealing *0 @Shadow Damage@ based on your missing Health. @Lifesteals@ 100%.
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect abilities."
+SHD_5_A2_Reaper's Scythe,78f453be-ea88-466e-bc8e-da45f4f491fc,SkillInfo,Deals *0 shadow damage for every 10% health missing from the target.
+SHD_5_A4_Raise Skeletal Mage,98efcfca-62ba-45a6-a46b-085e6711df4a,SkillInfo,Summon a skeletal mage to fight by your side.
+SHD_5_P1_Immortal Night,39380e38-ea1c-4916-8d0f-b8836076a6fd,SkillInfo,"Gain 2% of your maximum health as @Additional Shadow Damage@. 
+
+Current Shadow Damage Increase: [0]."
+SHD_5_P2_Child of the Abyss,5404aae7-0e99-4ab4-9468-1ab5c2a379ae,SkillInfo,Increasese @Max Health@ by 100%. Can no longer be healed by any means other than life steal.
+SHD_5_P3_Lich Lord,dba5dacc-f29a-4f8c-a39b-8e1024b8c003,SkillInfo,Removes the AP cost from all summoning skills.
+Spectral Mark,0b4dd25f-ecf0-4c3c-aa9d-2805b32b6ba0,SkillInfo,"Gain 50% @increased damage@ on the target.  If the target dies while Spectral Mark is active, the cooldown is reset."
+Summon Ice Golem,b47ad88f-65bc-4ebd-8408-ef0244197389,SkillInfo,Summon a mighty Ice Golem to fight for you.
+Summon Molten Golem,ad451f75-9722-4caf-b096-083cbdff63fb,SkillInfo,Summon a mighty Molten Golem to fight for you.
+Summon Thunder Golem,d8698200-dfbe-43a8-8de5-1b3a0ca9e524,SkillInfo,Summon a mighty Thunder Golem to fight for you.
+Summon Wild Boar,9f01cfb9-b0f0-4754-9cb3-b7f06a2a9120,SkillInfo,Summon a Wild Boar to fight by your side.
+Test Skill - Summon From Status,7e42f790-a725-4368-b5af-2e1710475515,SkillInfo,Testing Summons Bro!
+THF_1_A1_Poison Weapon,f2f2e0f5-7d80-4c54-8df0-f7a021a39978,SkillInfo,Attacks now apply 1 stack of {STA=Poisoned}.
+THF_1_A3_Cripple,1d00df50-a197-462e-9595-040d6448815e,SkillInfo,Deals *0 weapon damage.  Applies {STA=Slow} for 1 turn.
+THF_1_A4_Dagger Throw,e79eec19-5056-4556-80ba-264da9e47c4b,SkillInfo,Throw a dagger dealing *0 weapon damage.
+THF_1_P1_Death Dealer I,7f9b4fbe-9799-40e1-a040-89f23a78d223,SkillInfo,Increase @Critical Hit Damage and Healing@ by 16%.
+THF_1_P2_Swiftness,40786dd5-f36e-4d22-bd4a-aaf6913f94d2,SkillInfo,Increases your @movement points@ by 1.
+THF_1_P3_Ambush I,0fb33435-02b7-411d-90c4-e073308bf0b5,SkillInfo,Deal 16% @increased damage@ when an enemy has no allies within 3 hexes.
+THF_1_P4_Fencer's Finesse I,ca8860d5-05f1-4e9b-af60-6d9ccbcf3668,SkillInfo,Increases @dodge chance@ by 5%.
+THF_2_A1_Evasion,59f77476-7898-4918-832a-fb53e6e767be,SkillInfo,Gain 100% @dodge chance@ for the next attack.
+THF_2_A2_Gouge,46e49ab7-ae0b-4a55-a31a-89f3ccaf3069,SkillInfo,Deals *0 weapon damage.  Applies 2 stacks of {STA=Bleeding}.
+THF_2_A3_Maim,62d2aaeb-d0f8-4562-8fc1-d9caa5576b4c,SkillInfo,Deals *0 weapon damage.  Applies {STA=Disabled} for 1 turn.
+THF_2_A4_Deadly Dagger,f117b232-1ceb-45ab-a95b-dbb2c60c6ee1,SkillInfo,Throw a dagger dealing *0 weapon damage.  Deals 50% additional @critical hit damage@.
+THF_2_A5_Poisoned Dagger,81348308-838f-4ce5-a67c-d68c1426bfb1,SkillInfo,Throw a poisoned dagger dealing *0 weapon damage.  Applies 2 stacks of {STA=Poisoned}.
+THF_2_P1_Death Dealer II,6fb73337-4712-4c98-afd3-5b9e6c47bb54,SkillInfo,Increase @Critical Hit Damage and Healing@ by an additional 24%.
+THF_2_P2_Shroud,44ee443d-808b-4342-89aa-78f00b1ba5fb,SkillInfo,Applies {STA=Stealth} at the start of each battle.
+THF_2_P3_Ambush II,45cb6d85-689c-4415-97f6-12e7d9882e35,SkillInfo,Deal an additional 24% @increased damage@ when an enemy has no allies within 3 hexes.
+THF_2_P4_Fencer's Finesse II,b86e6206-9318-41e4-9031-25032fe25acc,SkillInfo,Increases @dodge chance@ by an additional 8%.
+THF_3_A1_Enduring Evasion,d9cf47d7-8fdf-48d2-99d7-19e48518c9e0,SkillInfo,Gain 100% @dodge chance@ for the next 2 attacks.
+THF_3_A2_Uncanny Evasion,fbfc4b3e-884a-4708-bd55-37d703726316,SkillInfo,Gain 100% @dodge chance@ for the next attack. Increases @Counter Attack Damage@ by 50% for 1 turn.
+THF_3_A3_Steal Status,4c624ea4-67c6-432b-9c06-f9b4726b45e8,SkillInfo,Steals a random positive status from the target.
+THF_3_A4_Garrote,50c2abc3-aeef-4277-b034-ec3c37a9e932,SkillInfo,Deals *0 weapon damage. Applies {STA=Disabled} to the target for 1 turn and applies 3 stacks of {STA=Bleeding}.
+THF_3_A5_Steal Action,59f3b228-8016-43fd-a9e2-e34f19339fe6,SkillInfo,Steals the target's action granting 1 additional action this turn. Applies {STA=Disabled} to the target for 1 turn.  Applies {STA=Exhaustion}.
+THF_3_P1_Hidden Blade,680f1728-7582-4aff-89d0-e19b56a5f973,SkillInfo,Increases @Critical Hit Damage@ for your basic attack by 75%. 
+THF_3_P2_En Garde,0119aa5f-3e0c-4730-bdd6-80b40b89e914,SkillInfo,Increases your maximum amount of Counter Attacks per turn by 2.
+THF_3_P3_Fight Dirty,3954ff4b-0a05-4c10-a5d8-e39650662535,SkillInfo,Your attacks apply 2 stacks of {STA=Poisoned}.
+THF_3_P4_Fade,5222580b-488c-4458-b20c-d25eacc38489,SkillInfo,"Whenever an enemy dies, you have a 50% chance to gain {STA=Stealth} for 1 turn. "
+THF_4_A1_Smoke Bomb,bcf62817-74e0-4254-a90b-6a62bf991199,SkillInfo,Increases @dodge chance@ by 50% for all characters in smoke.
+THF_4_A2_Shadow Walk,3a241124-a6eb-4ced-a635-cb5d8792c8db,SkillInfo,Teleport through the shadows. Applies {STA=Stealth} for this turn.  Unaffected by increased range modifiers.
+THF_4_A4_Rupture,60320877-3c07-4f50-94e1-6bebb13a6f5c,SkillInfo,Deals *0 weapon damage. Applies {STA=Disabled} for 1 turn and applies 6 stacks of {STA=Bleeding}.
+THF_4_P1_Master Assassin,995f8fce-5483-40ce-9b06-e04066e5a3ea,SkillInfo,Always deal the maximum damage within a damage range. 
+THF_4_P2_Contaminated Wound,2577c321-48a4-47c3-8fc9-a6716523e670,SkillInfo,Increases the duration of {STA=Poisoned} and {STA=Bleeding} effects you've applied by 2 turns.
+THF_4_P3_Calculated Risk,24555c5e-d863-48dc-ac71-28878e514777,SkillInfo,When you are hit you have a 100% chance to cast @evasion@. 1 turn cooldown.
+THF_5_A1_Deathblow,3ca348f8-eb92-49d1-911a-b8bf55f025e0,SkillInfo,Deals *1 weapon damage. Critical hits deal an additional 200% @Critical Hit Damage@.
+THF_5_A2_Sleight of Hand,c3a9ab8e-b920-4bde-a541-3ca08161264a,SkillInfo,Steal all of the target's beneficial statuses while giving the target all your negative statuses. 
+THF_5_P1_Soft Step,17db71c5-fd9a-45d2-827f-05b7e3f22f90,SkillInfo,Moving 5 hexes in a row grants {STA=Stealth} for your current turn.  Your character no longer takes attacks of opportunity.  
+THF_5_P2_Tricks of the Trade,1370efe2-5b3f-4d68-b696-82f6e70a7418,SkillInfo,Reduces the cooldown of all abilities by 1.
+Transcendence,82855001-25f5-4677-8127-6d2d63cd12f0,SkillInfo,Grants @Invincibility@ for @1@ turn.
+Trophy Hunter,096b4032-a4f9-4e6e-92d9-3ac7ec8e9a33,SkillInfo,Every enemy slain grants 10% @Increased Damage@.  Lasts the duration of the battle.  Stacks up to 5 times.
+Vampire Lord,bfcd48d9-f532-4d91-9fa5-a7fecb6a2ee0,SkillInfo,Allies within 3 hexes of you gain 20% life steal.
+Venom Bolt,f5ee9ad7-0ae5-4e57-83f6-b9ea7974e10a,SkillInfo,Hurls a bolt of fire dealing *0 fire damage to a single target. 
+WAR_1_A1_Rage,79881504-d87f-4399-abc4-5f2869c1edda,SkillInfo,Increases @Damage dealt@ and @Max Life@ by 15%.  Increases @damage received@ by 15%.
+WAR_1_A2_Double Edge,91a3087b-b0c6-4766-80a6-668efaa2e844,SkillInfo,Deals *0 weapon damage to the target and 15% of the damage back to you. 
+WAR_1_A3_Fracture,92a38634-4cbd-4d73-a673-99fd64d4d618,SkillInfo,Deals *0 weapon damage.  Lowers targets @Resistance@ by 20% for 2 turns.
+WAR_1_A4_Bash,c3f229d9-174a-4988-ab36-67001bbecc28,SkillInfo,Deals *0 weapon damage.  Knocks the target back up to 3 hexes.
+WAR_1_P1_Wanderer,76429216-af1f-4f49-b05d-a80567a7958f,SkillInfo,Increase @movement points@ by 1.
+WAR_1_P2_Warmonger I,a151ffba-bc8a-4e8c-95c2-a209e2e3ac98,SkillInfo,Increase all Damage and Healing by 8%. 
+WAR_1_P3_Guardian I,3c530dca-b065-4cf5-a20c-a407bf15665a,SkillInfo,Increase @Physical Resistance@ by 5%.
+WAR_1_P4_Challenger,9429fa9e-9992-426e-8a89-74864b000064,SkillInfo,For every enemy within 1 hex of your character gain 5% to @Armor@ and @magic armor@.
+WAR_2_A1_Berserker's Rage,daf77151-9d46-49ca-9438-8abaaebb392e,SkillInfo,Increases @Damage dealt@ by 25%. Increases @Max Life@ and @damage recieved@ by 15%. 
+WAR_2_A2_Tempered Rage,426609c7-7b07-44e2-8240-8d4a0a71cb23,SkillInfo,"Increases @Damage@, @Armor@, and @Magic Armor@ by 15%."
+WAR_2_A3_Bloodlet,7076c2cd-d3e5-483d-8164-8984dc5fb701,SkillInfo,Sacrifice 15% of your maximum health in exchange for an additonal action this turn.  Applies {STA=Exhaustion}.
+WAR_2_A4_Cleave,5a0220e8-a376-4f5c-ac72-613a061ef347,SkillInfo,Swing in a 180 degree arc striking all foes for *0 weapon damage.
+WAR_2_A5_Threatening Fracture,123229e9-9c60-4676-aee6-70df4ea0a897,SkillInfo,"Deals *0 weapon damage, removes 1 random benefical status from the target and lowers the target's @Resistance@ by 20% for 2 turns."
+WAR_2_A6_Mortal Fracture,b7be71d3-c0a5-4aec-9075-1ef679f9eb6e,SkillInfo,Deals *0 weapon damage and lowers target's @Resistance@ by 20% and @Healing@ received by 50% for 2 turns.
+WAR_2_A7_Charge,935b1f2d-5f45-49ca-87c4-479676965ba0,SkillInfo,Charges to the target and deals *0 weapon damage to all enemies in your path.
+WAR_2_P1_Opportunist,bf1bdce3-e52a-47e7-b44a-ffc1ea102ae7,SkillInfo,Increases damage of @opportunity attacks@ and @counter attacks@ by 25%.
+WAR_2_P2_Warmonger II,7f5cbda1-f1fd-4f71-9347-e00ffbf5e96b,SkillInfo,Increase all Damage and Healing by 12%. 
+WAR_2_P3_Guardian II,ee39daa7-a24e-4654-95b6-9a445f67fce3,SkillInfo,Increase @Physical Resistance@ by an additional 10%.
+WAR_2_P4_Into the Fray,ee127ace-ef16-4095-94f6-858bf096dd6c,SkillInfo,For every enemy within 3 hexes of your character gain 3% @increased Damage@ and 3% @Maximum Health@.
+WAR_3_A2_Warrior's Boon,33b081df-7aee-4f3f-ad9d-32530985008c,SkillInfo,Heals 25% of your maximum health and removes all negative statuses. Can be used when Disabled.
+WAR_3_A3_Slam,141f4d12-1b62-499a-af38-9e22128fcb8f,SkillInfo,Deals *0 weapon damage to all enemies within a line.
+WAR_3_A4_Life Cleave,7a5e0dae-95db-4145-90b1-4ebe85d1d12e,SkillInfo,"Swing in a 180 degree arc striking all foes for *0 weapon damage.  Lifesteals for 10% per target hit.
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect and no ap cost abilities."
+WAR_3_A5_Bleeding Cleave,03628d3c-9d0b-4804-8f75-79cce1222ca0,SkillInfo,Swing in a 180 degree arc striking all foes for *0 weapon damage.  Applies 2 stacks of {STA=Bleeding} on all targets hit. 
+WAR_3_P1_Battle Ready,7b710cc6-2b07-41a7-9096-bde41e3c5dee,SkillInfo,"1% of your @Armor@ value is added to your character as @Additional Weapon Damage@.
+
+Current Bonus: [0]"
+WAR_3_P2_Shield Mastery,68fa8925-3149-48ed-8445-373c316ea5b8,SkillInfo,Increases @All Stats@ from shields by 50%
+WAR_3_P3_Two-Handed Mastery,8a406c9f-4f2e-4e75-b43f-92177446a47a,SkillInfo,While a two handed weapon is equipped all damage is increased by 20%. 
+WAR_3_P4_Dual Wield Mastery,ce52db13-1b5b-4e54-a5c5-4983a3a377b8,SkillInfo,"While dual-wielding, @dodge chance@ increased by 5%, @critical hit chance@ increased by 5%, and @critical hit damage@ is increased by 20%."
+WAR_3_P5_Berserker's Blood,8f751cb7-2e2a-46c2-a02b-1d9d319203a2,SkillInfo," For every 1% of health missing, gain 1% increased damage."
+WAR_4_A1_Vitality Break,374fa2df-76b9-4e8a-b08b-63905b404c71,SkillInfo,Consumes 50% of your @current health@ to deal *0 weapon damage. Damage is increased by how much health is consumed. 
+WAR_4_A3_Crushing Slam,9d93b0f9-89ec-4a92-a35e-42347d72c570,SkillInfo,Deals *0 weapon damage to all enemies within a line.
+WAR_4_A4_Stunning Slam,d288312b-c7c2-4c44-836c-c77aaa0d33f3,SkillInfo,Deals *0 weapon damage and applies {STA=Stunned} to all enemies within a line for 1 turn.
+WAR_4_P1_Bone Collector,c9d81dd2-97e9-48e3-b15d-ced7ac32c16c,SkillInfo,Every enemy slain grants 6% @maximum health@ and @Increased Damage@.  Lasts the duration of the battle.  Stacks up to 5 times.
+WAR_4_P2_Blood Drinker,336ba30d-cb5f-458a-b50a-e4fabf19612a,SkillInfo,"Increases basic attack damage by 50%. Basic attacks now @Life steal@ for 5%.
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect and no ap cost abilities."
+WAR_4_P3_Executioner,7c3bb977-be87-43f3-8257-a2c8f6059852,SkillInfo,Every enemy slain on your turn grants 1 additonal AP.  Can only grant up to 1 additional AP per turn.
+WAR_5_A1_Sunder,ef35149c-3095-4e36-8a82-98877f69a627,SkillInfo,"Deals *0 weapon damage. Ignores all armor and resists. Cannot be dodged. @Life Steals@ for 25%.
+
+@Life Steal@ heals you for a percentage of your @max health@ each time you hit. Reduced for area of effect and no ap cost abilities."
+WAR_5_A2_Unyielding Contender,72591595-7e6d-4694-8067-de1e99ea9b84,SkillInfo,"Grants 50% increased Armor, Magic Armor, and Max Health for 2 turns. Grants Enrage. Usable while stunned."
+WAR_5_P1_Colossus,dbcf1df9-23ee-45d7-8dfd-ba057373dad9,SkillInfo,Damage you deal splashes to enemies within 1 hex for 50% of the damage dealt.
+WAR_5_P2_Indestructible,0f48639a-357b-4f90-88aa-92443f986817,SkillInfo,"Getting hit increases @armor@, @magic armor@, and @return damage@ by 10% per stack. Stacks 10 times."
+Werewolf Blood Howl,db0bd7ac-9b20-435a-88f3-d91199eb16eb,SkillInfo,Howl causing *0 physical damage to all enemies within 2 hexes.  Applies a debuff that causes all attackers to lifesteal for [1]% against this target for 2 turns.
+Werewolf Blood Howl Greater,1e969896-820d-4da8-acb4-4ed77f287908,SkillInfo,Howl causing *0 physical damage to all enemies within 2 hexes.  Applies a debuff that causes all attackers to lifesteal for [1]% against this target for 2 turns.
+Werewolf_Cursed Bite,715faabf-3550-47ff-8fdc-33b3954913e8,SkillInfo,Deals *0 weapon damage and lowers target's @Healing@ received by 50% for 2 turns.
+Werewolf_Greater Cursed Bite,926fd895-82e9-43f1-ad6e-716f6d4abebd,SkillInfo,Deals *0 weapon damage and lowers target's @Healing@ received by 50% for 2 turns.
+[Apocalypse] Mass Burning Ground,4c92b7be-aebf-4ea8-93a1-f44a7eb31964,SkillInfo,Ignites random areas around the map. Enemies take [0] fire damage each turn they remain on burning ground.
+[Avenging Light] Cure,8d1859c3-fc41-45e1-8a2d-9f083b436f01,SkillInfo,"Restores target's health by *0.
+
+@<b>Wrath of the Righteous</b>@
+Deals *0 holy damage to enemies."
+[Avenging Light] Divine Intervention,6ca31377-b872-4781-8d9c-976a95d250e6,SkillInfo,"Restores the target to full health.
+
+@<b>Wrath of the Righteous</b>@
+When used on enemies, deals Holy Damage equal to 100% of the caster's maximum health."
+[Avenging Light] Healing Hand,2bc13cdd-81db-4c5a-a715-ac68877895e5,SkillInfo,"The caster reaches out in aid healing 30% of target's maximum health.
+
+@<b>Wrath of the Righteous</b>@
+When used on enemies, deals Holy Damage equal to 30% of the caster's maximum health."
+[Avenging Light] Holy Ground,a1661c3a-cb6c-4fbf-b89b-dd2c772fd21c,SkillInfo,"Consecrate an area of ground to heal allies that stand upon it. Heals *0 per turn for 3 turns. 
+
+@<b>Wrath of the Righteous</b>@
+Also deals *0 Holy Damage to enemies within the aura."
+[Avenging Light] Mass Cure,6f18bbc8-8169-488e-bd4b-65deb08978e8,SkillInfo,"Restores *0 health to all allies within 2 hexes of target.
+
+@<b>Wrath of the Righteous</b>@
+Deals *0 holy damage to all enemies within 2 hexes of target."
+[Avenging Light] Regenerate,d8dd7a13-7a38-4deb-9911-b9f35ed957ad,SkillInfo,"Target restores *0 health per turn to allies.  
+
+@<b>Wrath of the Righteous</b>@
+Deals *0 holy damage per turn to enemies. "
+[Avenging Light] Seal of Salvation,1898b514-d4d8-4edb-9811-35f453f8b610,SkillInfo,"All allies within 3 hexes of you heal for *0 per turn. 
+
+@<b>Wrath of the Righteous</b>@
+All enemies within 3 hexes of you suffer *0 Holy Damage per turn. "
+[Azug Spikefist] Might of the Iceclaw,e6f2002f-2d19-40e3-a526-597c0a65698a,SkillInfo,Increase damage of all allies within 3 hexes by 30%.
+[Azug Spikefist] Summon Iceclaw,33d5686c-be59-49b8-8135-d519f53b67ac,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Bandit Boss] Summon Bandits,7fc34da6-cb9b-4dc9-ba72-b775225961e0,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Bandit Boss] Summon Blood Masks,d9773100-78c5-4570-b7fc-1b08c3ba8f91,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Baron] Vengeful Shadows,1b04c328-a123-45e9-b7a7-938fe670e441,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Bishop] Mass Blinding Light,ec39cc7c-5e2f-4955-bd45-1823b613caff,SkillInfo,Applies {STA=Blind} to all enemies.
+[Black Dragon] Abyssal Scream,509254c2-4aa3-4437-9b2d-bae2ec84b944,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Black Dragon] Dark Clones,a0a540d5-781c-44ae-ad24-bc1cb0de82cd,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Black Dragon] Mass Haunt,5e392eef-46b5-4cba-8bbc-b43769e0c1cb,SkillInfo,Applies {STA=Haunt} to all enemies.
+[Black Dragon] Mass Reaper's Scythe,5009677c-ba42-4d96-8ba4-f05d30cbce9f,SkillInfo,Applies {STA=Reaper's Scythe} to all enemies.
+[Black Dragon] Shadow Slash,3500f977-6651-4c1a-9552-5b863d273332,SkillInfo,Slash nearby targets dealing *0 shadow damage to all enemies in range.
+[Black Knight ] Mass Blind,2b11c9cf-d4e9-4885-8f82-0fa0ebee5ad6,SkillInfo,Applies {STA=Blind} to all enemies.
+[Blackbeard] Blackbeard's Curse Apply,39ad4a1e-51a7-4ac2-9340-4ae9eb9f0236,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Blackbeard] Cannon Bombardment,784f8140-7fae-45d1-a4b3-d5e8231023e2,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Blue Dragon] Frozen Mines,834d1735-5cdf-4321-90ce-005d0cb83ac1,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Blue Dragon] Spawn Eggs,6356532e-bf23-4a3c-be9e-e11765cb007a,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Blue Dragon] Summon Ice Court,1e80dbc9-f85c-4e30-bb4a-5cb49ac6ae29,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Broker] Hellfire Blast,da7e3128-1242-4c47-bb91-c9e6e3aeeaea,SkillInfo,Devour the life force of all enemies within 2 hexes dealing [0] Shadow Damage and reducing 10% of enemy @Maximum Health@ and giving you 10% @increased Damage@ for each enemy effected.
+[Broker] Soul Exchange One Fourth,0b973b0b-2055-4ff0-bb21-98abae60c8ad,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Broker] Soul Exchange One Half,ac721103-99a6-4dad-8253-c8a764bc216a,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Broker] Soul Exchange Three Fourths,b08ca498-5ea5-43b6-bb88-06e6cd8d480b,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Butcher]_Horrify,540420c1-3692-4906-958e-dbe81ca44fcc,SkillInfo,Applies {STA=Blind} to all enemies.
+[Counsil Bullaj] Blood Sacrifice,13a05e7a-64c2-4d63-b8ed-f382696b2091,SkillInfo,
+[Counsil Jahsun] Summon Jungle Imps,dd9922e7-931c-437f-97e7-cbd207b84b7d,SkillInfo,
+[Countess] Blood Boil,5ed04c42-dd89-4a2c-8794-d2e14606cceb,SkillInfo,Devour the life force of all enemies within 2 hexes dealing [0] Shadow Damage and reducing 10% of enemy @Maximum Health@ and giving you 10% @increased Damage@ for each enemy effected.
+[Countess] Blood Bolt,a964ea15-9cac-4f28-b9fe-4a87dbc7872a,SkillInfo,Hurls a bolt of fire dealing *0 fire damage to a single target. 
+[Countess] Mass Blood Boil,96a1ca8f-ec4f-4832-9482-474a7eec6494,SkillInfo,Devour the life force of all enemies within 2 hexes dealing [0] Shadow Damage and reducing 10% of enemy @Maximum Health@ and giving you 10% @increased Damage@ for each enemy effected.
+[Cursed Mimic] Shadow Bite,0ecb1eeb-8575-4866-bb86-059f048899a7,SkillInfo,Swing in a 180 degree arc striking all foes for *0 weapon damage.  Heals you for 100% of the damage dealt.
+[Dead One] Summon Undead,58d84d6c-791e-4630-a93f-66af77c4dd45,SkillInfo,Summon a Ancient Guardian to defend you.
+[Dragon Claw Talisman] Summon Red Dragon Whelp,cd8e256f-9c31-4e9a-8850-f02d145e9467,SkillInfo,Summons a Red Dragonling to fight by your side.
+[Dusk King] Brain Freeze,cd5f3ada-eb44-4ffb-b810-25456699d7c4,SkillInfo,Deals 10% of the targets Max Health in cold damage each time the target performs an action.
+[Dusk King] Raise Frozen Dead,1a0db170-b2e5-4261-b715-c547121015f6,SkillInfo,Summon a Frozen Dead to fight by your side.
+[Efreet] Summon Fodder 2,ac3df8cd-8dd3-400b-98ac-d7d2a217e6d7,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Efreet] Summon Fodder 3,052c37ce-5e72-4bd9-b5b1-870bb279dd9a,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Efreet] Summon Fodder 4,0ad98d4f-52c1-4e0a-a435-ff8ca15d97fd,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Efreet] Teleport,7f051b5f-8f25-4f3f-8c99-66d597e2f101,SkillInfo,Teleports the caster to the target location in a flash of lightning.  Unaffected by increased range modifiers.
+[Fenrir] Pack Summoning II,3b79ad08-354a-414b-83d3-a8f1015e4641,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Fenrir] Pack Summoning III,27e71097-6f25-4fda-8041-9f40b01081ac,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Forest Giant] Earth Shatter,fa28139a-7f90-49dd-ac62-1e2c4bfbcc43,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Forest Giant] Rock Breaker,d8808da5-8aa0-4c68-afa8-1f4a7a6f5c64,SkillInfo,Deals *0 physical damage to all foes within 3 hexes. 
+[Forgemaster] Smelt,bc903991-683e-4910-b770-8f74d0218545,SkillInfo,Burns the target for *0 fire damage each turn and reduces movement points by 3.
+[Forgemaster]_Mass Smelt,9d030fe1-6d18-4906-99ad-eed853c13822,SkillInfo,Burns the target for *0 fire damage each turn and reduces movement points by 3.
+[Gobfather] Call Reinforcements,f4b50bfb-4b1d-41ab-ad73-84cabb089a99,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Grandmaster] Falcon Kick,c136b139-80d6-4edd-8b31-b1d78e533973,SkillInfo,Kicks the target dealing *0 damage and knocking the target back up to 6 hexes.   Any enemy hit by the target also receives *0 damage.
+[Grandmaster] Hurricane Kick,eafec854-a190-428d-b66f-31dd6bec0134,SkillInfo,Conjures a lightning bolt that chains up to 5 enemies near the target dealing *0 lightning damage to each target.  
+[Grandmaster] Summon Shadows,9f17fe5d-4803-4ed8-990f-f93619c7b9c8,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Green Dragon] Summon Drakes,8008804b-c3f3-4ee3-8ffd-15992dfde1c7,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Herald] Dark Clones,a7cf478d-d5b5-44d1-8f5e-131d26dca37f,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Houndmaster] Summon Hounds,6c8147e4-4959-463a-8afc-dee6d3e40683,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Infernicus] Soul Fire,028e8cf6-0b31-41b6-a6d7-0ae10afb4515,SkillInfo,Burn the target's soul dealing *0 shadow damage. Lowers the target's @Maximum Health@ and @Maximum Mana@ by 20%.
+[Ironheart] Call Reinforcements Light and Flame,6acad498-4d0c-4416-b294-224f5c425509,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Ironheart] Call Reinforcements Sword and Shield,4292e95b-b288-445b-a5fb-aa6cd5447fe9,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Jester] Smash,e63c8564-49f6-45e6-8599-400179367ef7,SkillInfo,Deals *0 fire damage to all foes within 2 hexes of your character.
+[Jester] Summon Jack in the Box,7cdb1583-6f27-4d85-9492-f252a956ad81,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Lady] Mass Curse of Death,9f416259-51a1-477d-b15b-9ab1930a3c3b,SkillInfo,Applies {STA=Blind} to all enemies.
+[Lady] Sludge,5854fb53-1520-4f87-8195-65e26c662f0c,SkillInfo,Applies {STA=Blind} to all enemies.
+[Lady] Sludge Bolt,758c9a45-b56a-44fb-a771-6590fc1ac5de,SkillInfo,Hurls a bolt of fire dealing *0 fire damage to a single target. 
+[Medusa] Crumble,4bb53b7a-8120-4173-8377-2816c0bc3077,SkillInfo,
+[Medusa] Stone Bolt,8e795a02-c534-461e-8bb1-757b5cdeb118,SkillInfo,Hurls a bolt of fire dealing *0 fire damage to a single target. 
+[Medusa] Stoney Visage,c8be9f16-5270-445b-886b-52296cf5fe54,SkillInfo,
+[Medusa] Summon Stone Guardians,03fc9431-c71c-4742-b5bb-1385be0b7308,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Mirror Shard] Mirror Image,993d75b1-128b-4015-8fa3-c311b7f83a9b,SkillInfo,Summon a mirror image of yourself to fight by your side.
+[Nagomahu] Fire Gore,be397ed9-f61f-4e07-8808-0dfc53a031ad,SkillInfo,Swing in a 180 degree arc striking all foes for *0 weapon damage.
+[Nagomahu] Summon Shards of Hate,3efce4af-d396-4fd5-a961-2599d86e3466,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Necronomicon] Death Bolt,fb79fbe7-13e5-425f-a038-ad5eb01759a5,SkillInfo,Hurls a bolt of fire dealing *0 fire damage to a single target. 
+[Necronomicon] Raise Undead Berserker,dc5f1d13-8b5c-4d69-869b-7bebd2988ff6,SkillInfo,Raise an Undead Berserker to fight by your side.
+[Necronomicon] Raise Undead Ranger,f33f244b-ce05-47c7-8b6b-e0ca15fad5ff,SkillInfo,Raise an Undead Ranger to fight by your side.
+[Necronomicon] Raise Undead Wizard,22c0bbad-8888-499a-8057-73feea467c3e,SkillInfo,Raise a Undead Wizard to fight by your side.
+[Olgoi] Summon Worms,39edbf54-3e6a-4e42-bf93-956aa84a4cea,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[PaleGoblin] Summon Worgs,e36f9eff-56fa-4745-b333-a26577bb226c,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Prospector] Cave-in,277e665e-0274-4ed0-906f-80e96c6853a6,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Ragnar] Blessing of the Mountain,93560176-51cd-45d5-8129-6c187d701a4e,SkillInfo,Increases damage dealt and taken by 50%. Grants 1 additional Action Point
+[Ragnar] Call Reinforcements Healer,f935b468-a088-4fb8-b9af-ee68cc0d1380,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Ragnar] Call Reinforcements Soldier,82b6e014-b88a-4c6b-bd63-3808f63db8cb,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Ragnar] Call Reinforcements Warrior,b29cfcb3-590e-4242-a96d-a26dce60b04d,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Red Dragon] Apocalypse,834184f5-de03-4fa2-b81e-bb1214f6b323,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[RisenWitch] Summon Blood Cauldrons,f2f7b990-cde9-4d73-9d88-f9c234daaba7,SkillInfo,
+[RisenWitch] Unsummon Cauldrons,6f4cf852-115c-40d7-aa0a-48e032040094,SkillInfo,
+[Ronin] Summon Reinforcements,e76ceeb4-ac70-4a2f-a77e-3bd3b7022835,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Samara] Mirror Image,a885172f-4a0c-47ae-978b-69bcdb5eb764,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Scarecrow] Summon Crows,2648a71f-1086-4dae-8fd6-9c0b32742f8d,SkillInfo,Summon a Skeletal Lackey to fight by your side.
+[Scroll of Monster Summoning] Summon Monster,d8b7924a-f872-4595-9c67-a8c8dd567918,SkillInfo,Summons a Monster to fight by your side.
+[Sun Queen] Summon Radiant Orb,0790e8c4-4916-4e3b-be3d-9051a70f961d,SkillInfo,Summon a Radiant Orb to deal damage to enemies each turn.
+[Tlaloc the Storm] Chain Lightning,eb59a98e-0811-40fd-ad20-482c66ea821a,SkillInfo,Conjures a lightning bolt that chains up to 5 enemies near the target dealing *0 lightning damage to each target.  
+[Tlaloc the Storm] Mass Teleport,f9493e96-0c1b-4acb-ae43-aaf14a851d7a,SkillInfo,Conjures a lightning bolt that chains up to 5 enemies near the target dealing *0 lightning damage to each target.  
+[Tome of Tadashi] Tadashi's Armor,541c78ca-b718-457b-bccf-efbd0d07372d,SkillInfo,Completely negates the next attack.  Lasts until hit. 
+[Tome of Tadashi] Tadashi's Escape,6cffd6ac-5c79-4053-b009-78e7b8cd1b97,SkillInfo,Teleport to the target area.  Unaffected by increased range modifiers.
+[Tome of Tadashi] Tadashi's Ritual,1fae4aa9-d90e-48df-af51-4e1722e188e5,SkillInfo,Target cannot drop below 1 hp while active.
+[Unholy Sacrifice] Unholy Sacrifice,e6acb799-5504-404a-aa06-4ec7b41b495a,SkillInfo,Explode a target summon killing it and dealing [0] @Shadow Damage@ to enemies within 2 hexes. 
+[Ursa] Fire Cleave,c0382a90-ca4f-4f37-b628-ed56ea985c77,SkillInfo,Swing in a 180 degree arc striking all foes for *0 weapon damage.
+[Ursa] Flame Howl,0bdf60c7-e1c8-4b93-a800-2870b24ea357,SkillInfo,Deals *0 physical damage.  Enemies within 2 hexes deal 20% less damage.
+[Ursa] Frost Cleave,552de088-3ede-40e9-b772-93a35a06f28e,SkillInfo,Swing in a 180 degree arc striking all foes for *0 weapon damage.
+[Ursa] Ice Howl,a2cc9b96-0e21-41e5-8717-0532f7b4a761,SkillInfo,Applies {STA=Blind} to all enemies.
+[Ursa] Thunder Cleave,ac58a0fb-7cd7-4299-b049-f7c07a39d0a5,SkillInfo,Swing in a 180 degree arc striking all foes for *0 weapon damage.
+[Witch] Summon Heart Fetishes,c1f7de9e-d451-4402-bfde-33d9f114c0b9,SkillInfo,
+[Witch] Summon Poison Cauldrons,5f3687ea-ab19-4ad0-b14f-102f6d96455f,SkillInfo,
+[Xotec] Summon Tribe,cff20720-8dc2-4b31-81ce-26af6ce436d1,SkillInfo,Summon a Skeletal Lackey to fight by your side.

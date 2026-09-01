@@ -1,0 +1,302 @@
+Name,GUID,Type,Description
+Abyss,641c2459-d392-4592-baba-2696b23d2e4f,ItemMod,Shadow skill damage increased by [15]%
+Agile,5c89c871-9160-47c0-85a4-3d9b248b7bc3,ItemMod,Dexterity increased
+Agile,406aebd2-737e-4660-8135-5b7319be0539,ItemMod,Dexterity increased by [9]
+Amber,b3ff6a4a-17a9-4311-8991-4787d6cd5431,ItemMod,Lightning Resistance increased by 10%
+Angel,0b2c27f7-9e9b-418f-9342-b7dfcf5a36ec,ItemMod,Divine Resistance increased by 10%
+Apprentice,51b23f75-ee7b-4384-9566-2be43aa97cf0,ItemMod,Armor increased by 5%
+Apprentice,e1f98b53-381c-456c-b9d8-50eddd2af402,ItemMod,Weapon damage increased by [12]%
+Aquamarine,57ccef5e-66ca-412f-87d8-1610659a3a6f,ItemMod,Cold Resistance increased by 5%
+Artificer,0fd7c832-b731-4643-ba76-300f895b5c99,ItemMod,Armor increased by 35%
+Artificer,b0bea3c2-dc13-4479-a2c1-4d7be200e014,ItemMod,Weapon damage increased by [24]%
+Artisan,2491e2e3-af12-47fd-a380-0f9d44735f88,ItemMod,Armor increased by 15%
+Artisan,b13cff2b-5355-4fb4-a726-755dc600e53f,ItemMod,Weapon damage increased by [16]%
+Avalanche,53e647fe-1254-453d-93ed-41d1adb24d26,ItemMod,Cold skill damage increased by [15]%
+Barbed,f1b1bd50-c3c3-4ace-9661-a6a852a4a650,ItemMod,Physical Damage Return +8.
+Barbs,9a19c697-fce4-42b1-8734-bff32afcab1f,ItemMod, +[16] Physical Damage Return.
+Befouled,ac88a199-5429-4925-9400-87da585a5a99,ItemMod,+[2] Damage to Shadow
+Behemoth,2ed3bac9-3fdd-4bce-aaaa-e8e0cdb7dd75,ItemMod,"Weapon damage increased by [25]%
+Movement points lowered by 1"
+Bestowing,e027208e-daf6-4045-b2a2-5895b018d8f9,ItemMod,Summon resistance increased
+Bestowing,4df430a4-f95f-41ef-a0a2-7e5e28136be0,ItemMod,Summon resistance increased by 5%.
+Blessed,6c42cc59-24eb-41e0-bcc4-0fe7fe1c3cdb,ItemMod,Item attributes increased by 10%
+Blessed,93f610b9-2ad8-4e15-b173-3682fb8382d4,ItemMod,+[4] added Healing.
+Blighted,ad889202-eb31-4fe7-bae5-c179a64c92f4,ItemMod,Shadow skill damage increased
+Blighted,d226c2fc-af35-4b8f-9d50-72a9ec04ca71,ItemMod,+[6] Damage to Shadow
+Bolstered,54a8f0c1-cf5a-4cf8-8a55-f30984d2891f,ItemMod,+20 added Physical Armor
+Brawny,fe91f6c3-8b08-4635-8690-860ccd3390fc,ItemMod,Might increased by [3]
+Bright,f63be1ab-b4be-4f19-8a91-4906b7118c2a,ItemMod,Intelligence increased
+Bright,b5c28dd8-804b-4228-b10e-b71029ba0df9,ItemMod,Intelligence increased by [6]
+Brilliant,89aaabd5-e9af-47a5-ba69-bc17dc110c29,ItemMod,Intelligence increased
+Brilliant,a2682b6b-e2f1-44bc-af80-041c2f1b96f6,ItemMod,Intelligence increased by [12]
+Bristles,a441c670-aa14-4b64-80cd-587ea944ec6b,ItemMod, +[4] Physical Damage Return.
+Burning,e9921891-f067-4007-b694-28ad29304228,ItemMod,Fire skill damage increased
+Burning,a61bce38-a61b-4932-a2c2-782f8d5aae56,ItemMod,+[6] Damage to Fire
+Butchery,7b143728-780d-4bfa-a92a-7747061f0dda,ItemMod,Critical Hit Damage and Healing increased by [45]%
+Caretaker's,83579539-f922-427b-bc96-6bff9e8b971f,ItemMod,Summon Health increased by [10]%
+Carnage,b934e07a-de9f-402c-9ab1-8d01faa3d596,ItemMod,Critical Hit Damage and Healing increased by [35]%
+Carnelian,4c3a2d53-4674-45eb-b9d8-2aa0682f2ad9,ItemMod,Fire Resistance increased by 5%
+Charged,f92f33d2-4f01-4d5e-a517-44cd4cfc8917,ItemMod,Lightning skill damage increased
+Charged,19559c04-6538-4819-a8ec-8d06666afeef,ItemMod,+[4] Damage to Lightning
+Chilled,ba352d24-11bf-4d81-87fa-ef0d01876507,ItemMod,+[2] Damage to Cold
+Chromatic,cecc1fb9-efb7-4c4c-a19b-fddc03ebf8af,ItemMod,Resistances increased
+Citrine,147c3286-8108-4178-b799-cf9a4ba92e38,ItemMod,Lightning Resistance increased by 5%
+Clever,5be96445-eb2f-4908-a83d-d2175c292b44,ItemMod,Intelligence increased
+Clever,4673587c-335c-425b-88c8-3bf56b6d9991,ItemMod,Intelligence increased by [3]
+Cold,015e72cc-a22a-49af-a210-60b7fb1b0835,ItemMod,Cold skill damage increased
+Cold,0d816abc-71cf-4ea0-a32f-06d409167da8,ItemMod,+[4] Damage to Cold
+Colossal,a8113d6c-c6ac-48f6-9e80-f481f49fb752,ItemMod,"Weapon damage increased by 40%
+Movement points lowered"
+Colossus,c63d3d2d-2d7b-4043-8a7d-e8bac120defe,ItemMod,"Weapon damage increased by [30]%
+Movement points lowered"
+Commanding,121f5ce1-6336-4cb3-bfe6-dfcb0c2e5525,ItemMod,Increases Summon Limit by 1.
+Conflagration,2dc6ef4d-d47e-4287-9398-af3d9beaacac,ItemMod,Fire skill damage increased by [12]%
+Conjurer,3a14b2b8-1bb7-44fe-bd31-4d3fa6fc84a1,ItemMod,Summon Damage increased by [4]%
+Crusher,a6272275-1983-4735-9f60-e802534e04de,ItemMod,Physical damage increased by [9]%
+Crushing,865cab55-b876-4efc-a386-d2ff523b3bf8,ItemMod,Physical damage increased
+Cursed,48910271-ac5e-4cc9-b35f-47aa1b73aa96,ItemMod,+[8] Damage to Shadow
+Darkened,550354a8-92e6-44df-ae0e-e760d78544f7,ItemMod,Shadow skill damage increased
+Darkness,e9c9bbb8-4f7c-4778-835d-c2fa35916238,ItemMod,Shadow skill damage increased by [6]%
+Deadly,6a54e67b-b014-4101-a816-5d8ddf7f5f78,ItemMod,Crit damage increased
+Death Hunter,2e6606c6-cd48-4f19-9472-de3584da24f1,ItemMod,Summon Health increased by [12]%
+Defending,558a0518-e845-412b-81f3-bff81365a058,ItemMod,Physical resistance increased
+Dexterous,80fd6a79-9305-4283-aec7-77b4ccae96b8,ItemMod,Dexterity increased by [15]
+Diffusing,6c17a6b1-548e-48fc-a215-e3cd7067bcf2,ItemMod,Lightning resistance increased
+Distancing,0104b071-9c6f-4dbf-86d3-5ec721c2ebc6,ItemMod,Skill range increased
+Distancing,6257959e-bcd5-4370-92d3-d6523b956127,ItemMod,Skill range increased by 1.
+Doctor,ed39e0a2-ea9d-450d-9b6b-c81d6ece0bec,ItemMod,Holy power increased by [12]%
+Dusk,832daf44-d48a-42d4-adec-43a0b9918957,ItemMod,Shadow skill damage increased by [9]%
+Electrified,d932f1bc-0e55-4a4c-a7da-5669fd18c0ec,ItemMod,Lightning skill damage increased
+Electrified,e2eab500-7452-4ac4-a76b-bec1bf0a0855,ItemMod,+[8] Damage to Lightning
+Elusive,cd85a183-b726-4676-9e41-73e2026177e1,ItemMod,Reflex increased
+Elusive,38743b80-0402-40fe-ba2a-9d5c02ab5530,ItemMod,Reflex increased by [3]
+Embalmer,13e1e311-fffa-4500-a1bd-2f8ea643fd60,ItemMod,Summon Health increased by [8]%
+Embalmer's,cfa8f45f-44d2-46a5-bc7f-b302bb18caf8,ItemMod,Summon health increased.
+Enchanter,73a98008-8086-420c-9f50-d1980e08132b,ItemMod,Elemental skill damage increased by [6]%
+Enduring,a7b94ed6-54d1-482a-8f3f-a98aadf01a98,ItemMod,Vitality increased by [12]
+Energized,a1b75519-fb6f-48e0-b332-75ae0bc76b32,ItemMod,+[6] Damage to Lightning
+Energizing,a322d3a6-78c3-4d8a-9697-6fea172aeed2,ItemMod,Mana costs lowered
+Energizing,b7c8011a-29f1-4417-9f6b-51b4ca26a0ee,ItemMod,Mana costs lowered by 5%.
+Evasive,774f8dd6-2f95-43df-a14a-4d9df0180028,ItemMod,Reflex increased
+Evasive,3c49791a-4432-43ed-a111-6e737b68403a,ItemMod,Reflex increased by [6]
+Evisceration,9146dec0-1e45-4f00-954d-75989285e7b5,ItemMod,Critical Hit Damage and Healing increased by [55]%
+Exalted,e46de37b-4964-4e80-bb7d-d378cd3b45d8,ItemMod,Item attributes increased by 30%
+Exalted,c396e031-e9e0-4cc5-9f65-ae0a5b5889c8,ItemMod,+[8] added Healing.
+Exceptional,2ad8eb6b-0564-4d18-ab17-e48d649168a5,ItemMod,Weapon damage increased by 10%
+Exceptional,5fcacc02-e000-4517-8083-f5fdefd5adcc,ItemMod,+20 added Armor and Magic Armor
+Exceptional,07045cc9-2883-4497-b4df-9d120741e941,ItemMod,+[10] to Weapon Damage
+Exquisite,a4551bde-0e63-4dc5-97aa-dc945193f984,ItemMod,Weapon damage increased by 15%
+Exquisite,7f7cec87-ad68-4776-a2a8-a3516e942c28,ItemMod,+30 added Armor and Magic Armor
+Exquisite,e82f6791-f013-44e6-98dd-b04d2174336f,ItemMod,+[20] to Weapon Damage
+Fatal,45f34f91-8e06-4aec-b02a-57917331bda9,ItemMod,Crit damage increased
+Feral,dd60a999-8d8f-40b4-a299-0ecea129923f,ItemMod,Summon Damage increased by [10]%
+Fiery,1db53f76-6723-42bb-afa5-5f2a1907b68c,ItemMod,+[8] Damage to Fire
+Fine,90fa9273-7f8b-4c9b-88ae-2576c9a37994,ItemMod,Weapon damage increased by 5%
+Fine,642f57c0-d389-40e8-8ace-66755d434ab8,ItemMod,+10 added Armor and Magic Armor
+Fine,2ece6ef7-9bf8-4cd8-ba85-a0700500b177,ItemMod,+[5] to Weapon Damage
+Fire,2b3eb0e4-5051-4a46-87fc-bcd903fa0e87,ItemMod,Fire skill damage increased by [9]%
+Fireproof,7d08f185-a04c-4c99-9970-968fe02d2b3c,ItemMod,Fire resistance increased
+Fit,f8e318f8-ac8b-4d23-b337-eb705271da9e,ItemMod,Vitality increased
+Fit,d503c4b2-24d0-4662-8bbc-001a355db2a9,ItemMod,Vitality increased by [3]
+Flame,59207dee-5ee8-468d-8090-4cb441bb1dff,ItemMod,Fire skill damage increased by [6]%
+Fortified,709a74cf-9d14-4d99-8caf-086638f01280,ItemMod,Armor increased by 15%
+Fortified,d7c7a492-1688-41e9-a800-b9c4faf8c9ef,ItemMod,+60 added Physical Armor
+Frigid,72484f4c-f42d-4b2f-8700-fccc7e4d3d15,ItemMod,Cold skill damage increased
+Frigid,ee4dd4bb-bd44-4554-88d9-b0cbedae688c,ItemMod,+[8] Damage to Cold
+Frost,7dd1ef3b-8bf3-48f2-a82b-cfd07b0d1d79,ItemMod,Cold skill damage increased by [3]%
+Gargantuan,367b1a29-fd2c-4f63-bbe0-b6cc7cd15cd6,ItemMod,"Armor increased by [50]%
+Movement points lowered 1"
+Garnet,2528abc7-6596-4e64-8850-e86ce44d6fb4,ItemMod,Fire Resistance increased by 10%
+Ghostly,8413d976-f798-452f-8ad8-c726e7476229,ItemMod,Reflex increased
+Ghostly,3a2ff7ec-8c98-4cf0-bc1f-3a66b3c13379,ItemMod,Reflex increased by [15]
+Giant,9e8ec349-7021-47bb-95cc-4a9d9530336a,ItemMod,"Weapon damage increased by [15]%
+Movement points lowered"
+Gifted,7e75a858-1c51-49e2-89df-d75cfc58f83a,ItemMod,Intelligence increased
+Gifted,147cdfc4-6122-4dd0-8339-9d846c87b369,ItemMod,Intelligence increased by [9]
+Glacial,294a3dd6-83ee-4c73-b3bd-2d90bca14ec0,ItemMod,Cold skill damage increased
+Glacial,58ab2f85-4d47-47d1-969a-b2a934358fd7,ItemMod,+[10] Damage to Cold
+Glacier,fdb8a41f-acc7-4a45-be7e-cb3fdd4ed39c,ItemMod,Cold skill damage increased by [12]%
+Gloom,d901a4d6-36f7-4824-a005-6ceffd86da62,ItemMod,Shadow skill damage increased by [3]%
+Gloomy,deabf61a-2938-4efa-9588-d4784267e031,ItemMod,Shadow skill damage increased
+God,571b3805-5a51-4468-b905-2e42a4fa895e,ItemMod,Divine Resistance increased by 15%
+Goliath,e5f54c01-9b30-45db-bc3b-7300b016bf6c,ItemMod,"Weapon damage increased by [20]%
+Movement points lowered"
+Gore,8ce4f601-9f8e-4dc4-84f8-27d4a7fc3c50,ItemMod,Critical Hit Damage and Healing increased by [15]%
+Gravekeeper,046aa428-9406-410a-9e21-60716cbef806,ItemMod,Summon Health increased by [6]%
+Gravekeeper's,639cc8e1-577c-4f46-99f3-1d99e0014efb,ItemMod,Summon health increased.
+Grounding,3807edc3-b84d-4665-8dcf-97a77aeb063c,ItemMod,Lightning resistance increased
+Guarding,0468d46c-dac3-4b7a-a6f2-7ca2b11e4123,ItemMod,+20 added Magic Armor
+Hallowed,e4b44f0c-b1cb-4c1b-886f-0b4eb29a4cb8,ItemMod,+[10] added Healing.
+Handler's,ea957136-98fc-4d0b-87c7-9cfa3e450237,ItemMod,Summon Health increased by [8]%
+Healer,6b191a33-a232-430c-bec3-55f1aa4768fd,ItemMod,Holy power increased by [9]%
+Healthy,d29d2e57-66d2-4a21-a592-32ad0b544607,ItemMod,Vitality increased
+Healthy,530688f6-1764-4b0a-893a-d3cf6eb78c45,ItemMod,Vitality increased by [6]
+Hearty,c036cd34-de6a-454f-a976-6d3a42a43f80,ItemMod,Vitality increased
+Hearty,16af0f52-7187-408e-bed4-1c49ef4b6501,ItemMod,Vitality increased by [9]
+Heavy,68e57aca-c19a-40b0-bf39-883217a103e8,ItemMod,"Weapon damage increased by 20%
+Movement points lowered"
+Hefty,d55ec588-5622-4d37-bc37-59982ce68028,ItemMod,"Armor increased by 25%
+Movement points lowered"
+Herculean,f7f62877-9649-44c1-a64c-40466998f318,ItemMod,Might increased
+Herculean,ba19dc73-9f99-4ad5-b51d-bad1c84d24ad,ItemMod,Might increased by [15]
+Holy,88560148-58c2-413b-b034-6a2bb03fdf25,ItemMod,Healing skill power increased
+Hulk,4c5f84bf-ddc5-431b-8a92-d752a56cc7db,ItemMod,"Armor increased by [30]%
+Movement points lowered 1"
+Hulking,6d611e6b-a1f0-4248-abcd-2f6c3bf0964b,ItemMod,"Armor increased by 45%
+Movement points lowered"
+Icicle,b5e7fae6-c86f-4725-9c49-1eb9d6eb9044,ItemMod,Cold skill damage increased by [6]%
+Icy,cff2c85d-8eca-4990-ad5d-fca68c73c4ed,ItemMod,Cold skill damage increased
+Icy,50c052cd-27e0-4a3b-9bf4-a2e15841105b,ItemMod,+[6] Damage to Cold
+Imbued,d4412413-9d7d-4bfe-bee0-06ac4ae9558e,ItemMod,Healing skill power increased
+Immaterial,69546a53-9ebe-4967-8d73-ce37931adb2e,ItemMod,Reflex increased
+Immaterial,07b83da0-f14b-48f8-a6e6-a0239519aca1,ItemMod,Reflex increased by [9]
+Immortal,633386ad-a0d8-4602-b572-fd34bac11de3,ItemMod,Vitality increased
+Immortal,56945b54-6a10-4258-a8e5-72f3d3c56ae8,ItemMod,Vitality increased by [15]
+Impenetrable,ce9e8bd3-8261-4262-bf22-f498a3bde559,ItemMod,Armor increased by 20%
+Impenetrable,ecd6dcaf-b9f1-4931-8173-29b3fc4633ab,ItemMod,+80 added Physical Armor
+Incorporeal,2483515b-9441-4030-8d97-9dc4baf09f86,ItemMod,Reflex increased by [12]
+Indestructible,443a7a94-e86e-4b13-86cc-6d18c77c3efd,ItemMod,Armor increased by 25%
+Indestructible,956094f8-f882-4143-9ed3-951058800fee,ItemMod,+100 added Physical Armor
+Inferno,04028b54-3c1c-41c3-ada9-5e4a426acaf9,ItemMod,Fire skill damage increased by [15]%
+Ingenious,ec0c141c-4cb9-42a6-8aca-89d018ada1ef,ItemMod,Intelligence increased by [15]
+Instinctual,72ee6d60-5e6f-41b0-a8d9-2b644fa59496,ItemMod,Summon Damage increased by [6]%
+Insulated,0fae6959-e03b-404f-8f0e-40948f7b77dd,ItemMod,Cold resistance increased
+Insulating,fb5be975-99b8-42f7-bbf6-b0ea4fa7fe10,ItemMod,Cold resistance increased
+Iron,4047dcf5-c90f-4759-9e02-5b322fbfc7e0,ItemMod,Physical Resistance increased by 10%
+Jagged,79977b4f-a683-4a71-8814-7d855bd4e97d,ItemMod,+[6] Damage to Physical
+Journeyman,2d6c66bb-43f5-4924-bee9-9a08f9af63af,ItemMod,Armor increased by 25%
+Journeyman,59e51ab6-66e3-4a74-8c49-40d7bae647fc,ItemMod,Weapon damage increased by [20]%
+Keen,9015a84f-44bc-41aa-b476-420286720fe8,ItemMod,+[2] Damage to Physical
+Keeper's,3ed68a0e-dccc-4d5d-a0e3-8128ebecb348,ItemMod,Summon Health increased by [12]%
+Lapis,b0f85f81-e64c-4468-a2f2-5344cb56bb6f,ItemMod,Cold Resistance increased by 10%
+Lethal,8f1680da-9b3b-4ca2-86e3-2c59c8887993,ItemMod,Crit damage increased
+Leviathan,8edd5ef7-740c-4f4e-82c3-4159e4cb4520,ItemMod,"Armor increased by [60]%
+Movement points lowered 1"
+Lich,411fd6ca-0786-4031-be2a-88d4c2f9a78e,ItemMod,Summon Damage increased by [12]%
+Lich's,e3d6fb46-dd1a-4470-a981-adfaabdf4d89,ItemMod,Summon damage increased
+Lightning,dcf05d41-965a-4ca2-9193-383195a884ce,ItemMod,Lightning skill damage increased by [9]%
+Magician,16d87366-7e25-45a3-aaf2-031b4a3d4023,ItemMod,Elemental skill damage increased by [3]%
+Magician's,67ce31b0-be70-4dfd-8a20-9c6ade5de997,ItemMod,Elemental skill damage increased
+Magus,5c12dc9a-fb0d-4bf5-915e-7c877e80390c,ItemMod,Elemental skill damage increased by [9]%
+Magus',48244164-8959-4542-ac89-1c0473c3460d,ItemMod,Elemental skill damage increased
+Mammoth,5e5a52b1-d681-48aa-8c59-35ff6cabbb11,ItemMod,"Armor increased by [20]%
+Movement points lowered 1"
+Mangler,f8315904-63bf-4344-8f8a-be9385001fd2,ItemMod,Physical damage increased by [12]%
+Mangling,0c4a4da2-708a-46d6-98d9-97c78bfdffd2,ItemMod,Physical damage increased
+Marking,4ad95b23-672d-4044-811b-75d8761d7094,ItemMod,Gain 1% Damage for every hex between you and your target.
+Masher,12c8cc25-372b-4898-a7a1-b08c434f9e8c,ItemMod,Physical damage increased by [3]%
+Massive,e9ae9e20-f4cf-4ed9-a50a-59e5c5fd64b8,ItemMod,"Armor increased by 35%
+Movement points lowered"
+Master,abe545f3-300c-4dfa-baf2-ae1b7a290e64,ItemMod,Armor increased by 45%
+Master,7071b6ee-ba4d-421c-a7d6-d13b72756eea,ItemMod,Weapon damage increased by [28]%
+Master's,81df8e98-daa1-4e14-ad2e-17371d33d5f3,ItemMod,Summon damage increased
+Masterwork,f88d3f85-22ba-4e81-a663-b097b238ddb4,ItemMod,Weapon damage increased by 20%
+Masterwork,a6f76730-295f-40f5-baa9-72413deffe30,ItemMod,+40 added Armor and Magic Armor
+Masterwork,1bff8cc6-5db2-4279-b971-fc3c12a00eed,ItemMod,+[30] to Weapon Damage
+Mender,b5901d30-11ed-4ac8-b546-3e3e62b8500e,ItemMod,Holy power increased by [3]%
+Mighty,f3d6fdc7-ed7a-4207-a000-20ecb398bdf0,ItemMod,Might increased
+Mighty,fe1af254-93c4-4812-bdda-293bbd0844f9,ItemMod,Might increased by [12]
+Monstrosity,24173d03-d51d-4e0b-9e54-faaa8ba0377e,ItemMod,"Armor increased by [40]%
+Movement points lowered 1"
+Monstrous,dce35149-f8c5-4dd0-af52-63de034fe28e,ItemMod,"Weapon damage increased by 30%
+Movement points lowered"
+Mortician,adf9054d-434c-41d1-bf6d-d6efded5c0b3,ItemMod,Summon Health increased by [4]%
+Mortician's,69242688-f01c-4fde-b527-661affbcb46d,ItemMod,Summon health increased.
+Necromancer,8f365405-eb3e-41ac-a648-cdfde4fc79be,ItemMod,Summon Damage increased by [10]%
+Necromancer's,2567c24d-b6c6-4b40-990b-c19c1fc9f4df,ItemMod,Summon health increased.
+Negating,f7976106-231f-4ea7-90d6-9bdad1a793ee,ItemMod,+60 added Magic Armor
+Nimble,941e4afc-f57a-402a-85d5-1c17d75b15d9,ItemMod,Dexterity increased
+Nimble,7b8b2dd8-cc56-40c2-82f2-ff8e1c357bac,ItemMod,Dexterity increased [6]
+Nullifying,ccd360f0-76c4-4075-99e5-1d77dbcfea76,ItemMod,+80 added Magic Armor
+Occultist,f2d79802-9c14-4f7f-9025-c58c7624ec57,ItemMod,Summon Damage increased by [8]%
+Perfected,5e36dc7c-e408-42c2-bb6a-d1de37d990ef,ItemMod,Weapon damage increased by 25%
+Perfected,ad4be1a6-5513-43c7-b56f-434da6f9e190,ItemMod,+50 added Armor and Magic Armor
+Perfected,e1f9dc12-38e2-4e2f-a039-d605deb2ec70,ItemMod,+[40] to Weapon Damage
+Physician,a0c96db4-abd9-43a3-9247-1c2a2c9e3d2d,ItemMod,Holy power increased by [6]%
+Poisoning,e62c61d7-270b-4fdf-b2fa-d533d90003a5,ItemMod,Attacks apply 1 stack of {STA=Poisoned}.
+Powerful,271d4432-68e3-498b-815c-67b346288b3b,ItemMod,Might increased
+Powerful,d57137e4-7f9c-48ea-921a-f3fe3da7a870,ItemMod,Might increased by [9]
+Prickly,08e35aae-8ee0-48b6-b875-0be9bd60b694,ItemMod,Physical Damage Return +2.
+Primal,381c5f09-35c4-44e4-aa09-456edd8c1ae7,ItemMod,Summon Damage increased by [12]%
+Protecting,fdede8b7-c927-4f3d-b189-91d3cb41c5db,ItemMod,Physical resistance increased
+Protecting,51522f65-6d5c-4f36-a9d0-0dc98b6d9c72,ItemMod,+40 added Magic Armor
+Protecting,9e28d09d-1c8e-4f94-9162-6d6f8865a001,ItemMod,All resistance increased by 5%.
+Pulverizer,8332c836-0d4e-4cb3-a61c-31c09b9ad856,ItemMod,Physical damage increased by [15]%
+Pulverizing,9e738789-1d20-4f78-b5c8-c1502ca4a565,ItemMod,Physical damage increased
+Quick,99643521-9710-4d76-9e6a-10d18d932ef6,ItemMod,Dexterity increased
+Quick,f902f6d2-2a79-4b95-8425-f325e0c92102,ItemMod,Dexterity increased [3]
+Radiant,c287a1b2-a324-4290-acd4-cad0b2d32550,ItemMod,Healing skill power increased
+Regenerating,089c4de6-56dc-4ecf-8706-db57e4592444,ItemMod,5% of your max life regenerated per turn.
+Reinforced,ed2a5782-373f-486a-8d42-4edfe9294191,ItemMod,Armor increased by 10%
+Reinforced,600ca0d7-3cc6-4bd9-8278-beb0a676937e,ItemMod,+40 added Physical Armor
+Retardant,cb751119-94bf-439a-aeb9-a23cd032f412,ItemMod,Fire resistance increased
+Revered,f50b67d8-c773-4b33-886f-6f4d495da8f3,ItemMod,+[2] added Healing.
+Rime,b4f5e2b3-fd28-4869-a7fe-8a8540f53a84,ItemMod,Cold skill damage increased by [9]%
+Ruby,402e625d-c6c3-42ed-a88a-ef054ad1b423,ItemMod,Fire Resistance increased by 15%
+Sacrificing,ed0f0bc4-b620-440b-a19a-2bb680d53029,ItemMod,Power increased by 20%. Max Health decreased by 10%.
+Saint,5069a8ab-db7f-4390-ba3d-629013a71b3f,ItemMod,Divine Resistance increased by 5%
+Sanctified,a448b500-29c6-4a6a-918b-6a8b16dabd17,ItemMod,Item attributes increased by 20%
+Sanctified,563cc24c-67d0-4353-830c-d359b0164d30,ItemMod,+[6] added Healing.
+Sapphire,b54c80ef-04ef-4382-a79e-2e169b8a31e0,ItemMod,Cold Resistance increased by 15%
+Savior,ecd12224-ffba-49fd-8ae8-d5999cba4d3f,ItemMod,Holy power increased by [15]%
+Savior's,3a073fef-6b6b-413d-9dba-2ba611848adb,ItemMod,Healing skill power increased
+Sawtooth,d157e2db-f30a-41dc-8d10-743e8aba8e06,ItemMod,+[8] Damage to Physical
+Scorching,1556366f-d7f0-4a4e-bde6-c6c76f73cf58,ItemMod,Fire skill damage increased
+Scorching,b931f18e-42cb-4cfc-bf29-8759d5e224dd,ItemMod,+[10] Damage to Fire
+Searing,8f9f728b-4aa3-4295-921e-c8082c431c7a,ItemMod,Fire skill damage increased
+Searing,b4835529-56e1-478d-988f-00ccd28a7aa3,ItemMod,+[4] Damage to Fire
+Serrated,4c0759e0-5e24-4752-b50e-f2506162ca05,ItemMod,+[10] Damage to Physical
+Shadows,95713b02-9867-43bc-ae59-90ce750c93f7,ItemMod,Shadow skill damage increased by [12]%
+Sharp,4a559473-5d39-4647-b2ba-9c92e2725e21,ItemMod,+[4] Damage to Physical
+Shielding,9d7f2bc7-e078-495d-a1aa-881a4f66f451,ItemMod,Damage Reduction increased by 5%.
+Shock,31bd01a3-2748-43d7-b4c2-0a77a3066b48,ItemMod,Lightning skill damage increased by [6]%
+Shocking,8d1713ce-0330-48ce-b30f-7ad0942da47b,ItemMod,Lightning skill damage increased
+Shocking,a0515026-755b-4901-8d58-12f3e3184753,ItemMod,+[2] Damage to Lightning
+Slaughter,15279550-5be2-47ec-8e79-2402df5c295b,ItemMod,Critical Hit Damage and Healing increased by [25]%
+Smasher,2728cd66-cff7-4bbe-ae4f-eb1dbb21eac9,ItemMod,Physical damage increased by [6]%
+Smashing,ac164c6a-fc16-4efe-845f-c51e09e214ab,ItemMod,Physical damage increased
+Smouldering,68a493e3-0e66-491a-bc03-729e54125dbe,ItemMod,Fire skill damage increased
+Smouldering,31a210c2-380b-4b20-a396-d3e30f9bf5fb,ItemMod,+[2] Damage to Fire
+Sorcerer,141e6419-acb0-48e5-b43d-d11f4bc47ba2,ItemMod,Elemental skill damage increased by [12]%
+Sorcerer's,18ad1ad4-101e-4898-a7c2-714ef02e045a,ItemMod,Elemental skill damage increased
+Spark,4df2aa05-25ed-4667-8334-30abc3fa62b3,ItemMod,Fire skill damage increased by [3]%
+Spiked,2e66a42b-b03e-4b9b-a64b-574183fc9115,ItemMod,Physical Damage Return +6.
+Spikes,a68466f1-02ba-4647-856f-a60395c1eeee,ItemMod, +[12] Physical Damage Return.
+Spines,6782f81a-bc5a-4656-81f7-d6138d00b760,ItemMod, +[8] Physical Damage Return.
+Static,b10e7a92-a529-4f0f-8075-d9582c731f4d,ItemMod,Lightning skill damage increased
+Static,5ccebb75-0219-476d-b96a-73523ed7fb07,ItemMod,Lightning skill damage increased by [3]%
+Steel,ecff498d-c49b-453d-affd-fa1a662f0fa2,ItemMod,Physical Resistance increased by 15%
+Stone,70a82be6-0b22-4501-9c12-9461e8f77a08,ItemMod,Physical Resistance increased by 5%
+Storms,7fac996a-b286-4b67-8173-e9b14aa272bb,ItemMod,Lightning skill damage increased by [15]%
+Strong,9c683bac-57b9-4f57-ba16-1e376615a9f1,ItemMod,Might increased
+Strong,10d246c2-9004-46ca-abd7-ffe4bdc95179,ItemMod,Might increased by [6]
+Summoner,72f4440f-b8aa-4495-b0c7-df50825171dc,ItemMod,Summon Damage increased by [6]%
+Summoner's,a0568f1f-c21e-42c1-90ce-fb42273afbcc,ItemMod,Summon damage increased
+Swift,cf593177-b134-4072-a9a0-ac88461f30a6,ItemMod,Dexterity increased
+Swift,28a17d19-851a-4e86-a261-6e91c8e4b8d7,ItemMod,Dexterity increased [12]
+Tainted,bd751598-ff5d-4333-aa32-b781211e9e80,ItemMod,+[4] Damage to Shadow
+Tamer's,3fa4b99d-0941-4d8d-a3bf-59bb5194833d,ItemMod,Summon Health increased by [6]%
+Thorns,230596c6-eed0-4926-a256-9b092bb6fef0,ItemMod, +[20] Physical Damage Return.
+Thorny,550c3d6f-13bb-4d0d-a734-d526b599d36c,ItemMod,Physical Damage Return +4.
+Thunder,f66c9257-3a03-4e89-b735-89e3a7daf12c,ItemMod,Lightning skill damage increased by [12]%
+Thunderstruck,d9db7e2d-6268-4fd2-8f5c-efbe54e6984d,ItemMod,+[10] Damage to Lightning
+Tier I,a50cd964-536e-4fab-ad51-e4fe47e0f94f,ItemMod,All stats increased by 50%. 2% max resist
+Tier II,0ea9a23e-a6e2-4846-b2a5-3c95ee6832a8,ItemMod,All stats increased by 100%. 3% max resist
+Tier III,d4054a7e-c0fc-423b-8a43-4945d93774b1,ItemMod,All stats increased by 150%. 4% max resist
+Titan,07780332-8123-468a-a2c8-f5beabe731b9,ItemMod,"Weapon damage increased by [35]%
+Movement points lowered"
+Topaz,e309cbb4-0000-418e-ad38-c55d7ab7c980,ItemMod,Lightning Resistance increased by 15%
+Trainer's,56d1e200-5097-4e6f-8e93-ddb6b07c6c9c,ItemMod,Summon damage increased
+Trainer's,4396d994-652f-42ce-afe0-2e644f8ea211,ItemMod,Summon Health increased by [4]%
+Umbra,61955f06-bc32-44a8-8e62-54a9bc4f3748,ItemMod,Shadow skill damage increased
+Umbral,6cf04246-c955-41b0-bfd0-23c4afb533f8,ItemMod,+[10] Damage to Shadow
+Undertaker,e4379391-514a-49a0-b4f9-266d881a998a,ItemMod,Summon Health increased by [10]%
+Untamed,45c3a391-369e-4a93-8377-510e77eb9c04,ItemMod,Summon Damage increased by [4]%
+Vampiric,fdeaa4c2-e28a-4ea1-a8c8-830524110cbb,ItemMod,Lifesteal increased by 2%.
+Violent,b0f9074f-1eb0-46a0-b383-30ad3dc99150,ItemMod,Critical Hit chance increased by 5%.
+Wandering,68f058af-d8ac-49ab-816d-94765206a4a4,ItemMod,Movement points increased
+Wandering,40e174a8-2fd1-49ba-8c67-7746717dcfa9,ItemMod,Movement points increased by 1.
+Warding,96999080-0343-420e-817c-e4883ea1d13f,ItemMod,+100 added Magic Armor
+Wild,4c66e3c5-4d5a-4587-9b46-3ab57316a7ee,ItemMod,Summon Damage increased by [8]%
+Wizard,1319b13e-1589-4ee3-8cb7-0e37d19ed61f,ItemMod,Elemental skill damage increased by [15]%
+Wizard's,dc09e985-4f8d-45c0-b983-ee6841059ef5,ItemMod,Elemental skill damage increased

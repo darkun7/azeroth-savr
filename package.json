@@ -1,0 +1,21 @@
+{
+  "name": "azeroth-savr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/fetch-data.js && node scripts/fetch-icons.js && vite build",
+    "fetch-data": "node scripts/fetch-data.js",
+    "fetch-icons": "node scripts/fetch-icons.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.3.5"
+  }
+}
