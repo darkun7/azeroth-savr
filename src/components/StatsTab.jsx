@@ -30,9 +30,9 @@ export default function StatsTab({ save, update }) {
       const isSkill = name && name.match(/^[A-Z]+_\d+_[AP]\d+_/) && !name.startsWith('Enemy_') && !name.startsWith('Werewolf_') && !name.startsWith('BAS_')
       if (isSkill) continue
       if (STATS_KEYS.includes(name || guid)) {
-        stats.push({ key: name || guid, value })
+        stats.push({ guid, key: name || guid, value })
       } else if (GOLD_XP_KEYS.includes(name || guid)) {
-        goldXp.push({ key: name || guid, value })
+        goldXp.push({ guid, key: name || guid, value })
       } else {
         advanced.push({ guid, value, name: name || guid })
       }
@@ -41,7 +41,7 @@ export default function StatsTab({ save, update }) {
     return { statEntries: stats, goldXpEntries: goldXp, advancedEntries: advanced }
   }, [attrSkills])
 
-  const setStatValue = (key, value) => update(['AttributesAndSkills', key], value)
+  const setStatValue = (guid, value) => update(['AttributesAndSkills', guid], value)
   const setAdvancedValue = (guid, value) => update(['AttributesAndSkills', guid], value)
 
   return (
@@ -50,7 +50,7 @@ export default function StatsTab({ save, update }) {
         <h2 className="section-title">Base Stats</h2>
         <div className="kv-grid">
           {statEntries.map((s) => (
-            <NumRow key={s.key} label={s.key} value={s.value} onChange={(v) => setStatValue(s.key, v)} />
+            <NumRow key={s.key} label={s.key} value={s.value} onChange={(v) => setStatValue(s.guid, v)} />
           ))}
         </div>
         {statEntries.length === 0 && <div className="empty-hint">No stats found.</div>}
@@ -60,7 +60,7 @@ export default function StatsTab({ save, update }) {
         <h2 className="section-title">Gold &amp; XP</h2>
         <div className="kv-grid">
           {goldXpEntries.map((s) => (
-            <NumRow key={s.key} label={s.key} value={s.value} onChange={(v) => setStatValue(s.key, v)} />
+            <NumRow key={s.key} label={s.key} value={s.value} onChange={(v) => setStatValue(s.guid, v)} />
           ))}
         </div>
         {goldXpEntries.length === 0 && <div className="empty-hint">No Gold/XP found.</div>}
