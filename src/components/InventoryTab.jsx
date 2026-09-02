@@ -51,7 +51,10 @@ export default function InventoryTab({ save, update }) {
       const name = getNameByGuid(item.ItemGuid)
       const cat = getCategoryByName(name)
       if (catFilter !== 'all' && (!cat || cat.toLowerCase() !== catFilter)) return false
-      if (q && !name.toLowerCase().includes(q)) return false
+      if (q) {
+        const tooltip = getItemTooltip(name) || ''
+        if (!name.toLowerCase().includes(q) && !tooltip.toLowerCase().includes(q)) return false
+      }
       return true
     })
   }, [items, query, catFilter])

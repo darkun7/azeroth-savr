@@ -17,11 +17,15 @@ export const gearCategories = [
 
 // Lookup name for a gear item GUID (from GUIDs.csv).
 const guidToName = new Map(guids.map((g) => [g.GUID, g.Name]))
+// Reverse lookup: gear item name -> GUID.
+const nameToGuid = new Map(guids.map((g) => [g.Name, g.GUID]))
 
 // Lookup name for a skill/attribute GUID
 const skillGuidToName = new Map(skillGuids.map((s) => [s.GUID, s.Name]))
 const skillGuidToDesc = new Map(skillGuids.map((s) => [s.GUID, s.Description || '']))
 const skillGuidToRef = new Map(skillGuids.map((s) => [s.GUID, s.refData || null]))
+// Current in-game display name (from localization; differs for renamed skills)
+const skillGuidToDisplayName = new Map(skillGuids.filter((s) => s.DisplayName).map((s) => [s.GUID, s.DisplayName]))
 
 // name -> first matching gear row (so we can show category/rarity on grids)
 const nameToGear = new Map()
@@ -38,6 +42,11 @@ export function getNameByGuid(guid) {
   return guidToName.get(guid) || ''
 }
 
+export function getGuidByName(name) {
+  if (!name) return ''
+  return nameToGuid.get(name) || ''
+}
+
 export function getSkillNameByGuid(guid) {
   if (!guid) return ''
   return skillGuidToName.get(guid) || ''
@@ -46,6 +55,11 @@ export function getSkillNameByGuid(guid) {
 export function getSkillDescByGuid(guid) {
   if (!guid) return ''
   return skillGuidToDesc.get(guid) || ''
+}
+
+export function getSkillDisplayNameByGuid(guid) {
+  if (!guid) return ''
+  return skillGuidToDisplayName.get(guid) || ''
 }
 
 export function getSkillRefByGuid(guid) {
@@ -133,7 +147,11 @@ export function searchGear(query) {
   const results = []
   for (const cat of gearCategories) {
     for (const item of cat.items) {
-      if (item.Name.toLowerCase().includes(q)) {
+      if (
+        item.Name.toLowerCase().includes(q) ||
+        (item['Base Stats'] || '').toLowerCase().includes(q) ||
+        (item['Attributes'] || '').toLowerCase().includes(q)
+      ) {
         results.push({ ...item, _category: cat.label })
       }
     }
@@ -143,7 +161,9 @@ export function searchGear(query) {
 
 export function searchFortunes(query) {
   const q = query.toLowerCase()
-  return fortunes.filter((f) => f.Name.toLowerCase().includes(q))
+  return fortunes.filter(
+    (f) => f.Name.toLowerCase().includes(q) || (f.Description || '').toLowerCase().includes(q)
+  )
 }
 
 const modGuidToName = new Map(itemMods.map((m) => [m.GUID, m.Name]))
@@ -178,7 +198,9 @@ export function getTierFromModIds(modIds) {
 
 export function searchItemMods(query) {
   const q = query.toLowerCase()
-  return itemMods.filter((m) => m.Name.toLowerCase().includes(q))
+  return itemMods.filter(
+    (m) => m.Name.toLowerCase().includes(q) || (m.Description || '').toLowerCase().includes(q)
+  )
 }
 
 const BASE = import.meta.env.BASE_URL || '/'

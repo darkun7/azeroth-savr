@@ -113,6 +113,13 @@ export default function FortuneTab({ save, update }) {
   const modalOpen = adding || editingIndex !== null
   const modalTitle = adding ? 'Add Fortune' : editingIndex !== null ? 'Edit Fortune' : ''
 
+  const equipped = useMemo(() => {
+    return fortunes
+      .map((f, i) => ({ f, i }))
+      .filter(({ f }) => f.EquippedSlotIndex >= 0)
+      .sort((a, b) => a.f.EquippedSlotIndex - b.f.EquippedSlotIndex)
+  }, [fortunes])
+
   const filtered = useMemo(() => {
     const q = query.toLowerCase()
     if (!q) return fortunes.map((f, i) => ({ f, i }))
@@ -120,7 +127,8 @@ export default function FortuneTab({ save, update }) {
       .map((f, i) => ({ f, i }))
       .filter(({ f }) => {
         const d = fortuneData(f.Guid)
-        return (d ? d.Name : f.Guid).toLowerCase().includes(q)
+        if ((d ? d.Name : f.Guid).toLowerCase().includes(q)) return true
+        return !!(d && (d.Description || '').toLowerCase().includes(q))
       })
   }, [fortunes, query])
 
@@ -158,6 +166,31 @@ export default function FortuneTab({ save, update }) {
 
   return (
     <div>
+      {equipped.length > 0 && (
+        <div className="panel">
+          <h2 className="section-title">Equipped ({equipped.length})</h2>
+          <div className="equipped-row">
+            {equipped.map(({ f, i }) => {
+              const d = fortuneData(f.Guid)
+              const name = d ? d.Name : f.Guid
+              const rarity = d ? formatRarity(d.Rarity) : ''
+              const rc = rarityColor(rarity)
+              return (
+                <Tooltip content={d ? `${name}\n${rarity}\n\n${d.Description || ''}` : name} key={i}>
+                  <div className="equipped-slot" onClick={() => setEditingIndex(i)}>
+                    <div className="equipped-slot-label">{getFortuneSlotLabel(f.EquippedSlotIndex)}</div>
+                    <div className="equipped-slot-content">
+                      {d && <img className="equipped-slot-icon" src={fortuneIconUrl(d)} alt="" loading="lazy" />}
+                      <span style={rc ? { color: rc } : undefined}>{name}</span>
+                    </div>
+                  </div>
+                </Tooltip>
+              )
+            })}
+          </div>
+        </div>
+      )}
+
       <div className="panel">
         <div className="grid-header">
           <h2 className="section-title">Fortunes ({fortunes.length})</h2>

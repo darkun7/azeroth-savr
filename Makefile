@@ -17,9 +17,10 @@ fetch-data:
 fetch-icons:
 	$(NODE) scripts/fetch-icons.js
 
-# Build for GitHub Pages (output to dist/)
-build: fetch-data fetch-icons
-	$(NPM) run build
+# Build single-file dist/index.html (assumes data + icons already fetched)
+build:
+	npx vite build
+	node scripts/inline-build.js
 
 dev: fetch-data fetch-icons
 	$(NPM) run dev

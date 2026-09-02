@@ -1,6 +1,7 @@
 import { useCallback, useMemo, useState } from 'react'
 import {
   getNameByGuid,
+  getGuidByName,
   getRarityByName,
   getCategoryByName,
   getCategoryByGuid,
@@ -33,7 +34,7 @@ function formatTimeAcquired(local) {
   return `${m[2]}/${m[3]}/${m[1]} ${m[4]}:${m[5]}:${m[6]}`
 }
 
-function TransmogPicker({ itemGuid, onChange }) {
+function TransmogPicker({ itemGuid, value, onChange }) {
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)
   const closeDropdown = useCallback(() => setOpen(false), [])
@@ -46,7 +47,7 @@ function TransmogPicker({ itemGuid, onChange }) {
     return r.filter((item) => item._category.toLowerCase() === catFilter)
   }, [query, catFilter])
 
-  const transmogName = getNameByGuid(itemGuid || '')
+  const transmogName = getNameByGuid(value || '')
 
   return (
     <div className="field">
@@ -69,7 +70,7 @@ function TransmogPicker({ itemGuid, onChange }) {
               const rc = rarityColor(rarity)
               const icon = categoryIconUrl(r._category)
               return (
-                <div key={i} className="result-item result-icon-row" onClick={() => { onChange(r.Name); setOpen(false); setQuery('') }}>
+                <div key={i} className="result-item result-icon-row" onClick={() => { onChange(getGuidByName(r.Name) || r.Name); setOpen(false); setQuery('') }}>
                   {icon && <img className="result-icon" src={icon} alt="" loading="lazy" />}
                   <span style={rc ? { color: rc } : undefined}>{r.Name}</span>
                   <span className="result-cat">[{rarity}]</span>
@@ -173,7 +174,7 @@ export default function ItemEditor({ item, onSave, onCancel }) {
   const searchRef = useClickOutside(open, closeDropdown)
 
   const pickItem = (name) => {
-    set('ItemGuid', name)
+    set('ItemGuid', getGuidByName(name) || name)
     setOpen(false)
     setQuery('')
   }
@@ -271,6 +272,7 @@ export default function ItemEditor({ item, onSave, onCancel }) {
         <div className="field-grid mb-row">
           <TransmogPicker
             itemGuid={draft.ItemGuid}
+            value={draft.TransmogItemGuid}
             onChange={(g) => set('TransmogItemGuid', g)}
           />
           <div className="field">

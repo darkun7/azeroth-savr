@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import {
   getSkillNameByGuid,
   getSkillDescByGuid,
+  getSkillDisplayNameByGuid,
   getSkillRefByGuid,
   getSkillIconForName,
   parseSkillName,
@@ -13,10 +14,10 @@ import Tooltip from './Tooltip.jsx'
 const TREE_LABELS = {
   chaos: 'Chaos', cold: 'Cold', fire: 'Fire', light: 'Light',
   lightning: 'Lightning', monk: 'Monk', nature: 'Nature', ranger: 'Ranger',
-  shadow: 'Shadow', thief: 'Thief', warrior: 'Warrior',
+  shadow: 'Shadow', thief: 'Thief', warrior: 'Warrior', item: 'Item',
 }
 
-const TREE_ORDER = ['warrior', 'ranger', 'thief', 'monk', 'chaos', 'cold', 'fire', 'light', 'lightning', 'nature', 'shadow']
+const TREE_ORDER = ['warrior', 'ranger', 'thief', 'monk', 'chaos', 'cold', 'fire', 'light', 'lightning', 'nature', 'shadow', 'item']
 
 function cleanDesc(desc) {
   if (!desc) return ''
@@ -26,15 +27,20 @@ function cleanDesc(desc) {
     .replace(/\*0/g, 'X')
 }
 
-function SkillCard({ guid, value, skillName, description, refData, might, charLevel, onToggle }) {
+function SkillCard({ guid, value, skillName, displayName, description, refData, might, charLevel, onToggle }) {
   const icon = getSkillIconForName(skillName)
   const parsed = parseSkillName(skillName)
   const learned = value > 0
   const displayDesc = refData?.description || cleanDesc(description)
   const dmg = computeDamageRange(refData, might, charLevel)
+  const title = displayName || parsed.cleanName
+  const source = skillName.match(/^\[([^\]]+)\]/)?.[1] || null
+  // Item-granted skills fall back to reference data for tier/type
+  const tier = parsed.tier ?? refData?.tier ?? null
+  const type = parsed.type || (refData?.type ? (refData.type === 'active' ? 'Active' : 'Passive') : null)
 
-  const tipParts = [parsed.cleanName]
-  if (parsed.type) tipParts.push(`Tier ${parsed.tier} · ${parsed.type}`)
+  const tipParts = [title]
+  if (type) tipParts.push(`Tier ${tier} · ${type}`)
   if (refData?.skillPointCost) tipParts.push(`Cost: ${refData.skillPointCost} skill point(s)`)
   tipParts.push('')
   if (displayDesc) tipParts.push(displayDesc)
@@ -70,11 +76,12 @@ function SkillCard({ guid, value, skillName, description, refData, might, charLe
       >
         <div className="skill-card-top">
           {icon && <img className="skill-card-icon" src={skillIconUrl(icon.file)} alt="" loading="lazy" />}
-          <div className="gear-card-name">{parsed.cleanName}</div>
+          <div className="gear-card-name">{title}</div>
         </div>
         <div className="gear-card-meta">
-          <span className="badge">T{parsed.tier}</span>
-          <span className="badge">{parsed.type}</span>
+          {tier != null && <span className="badge">T{tier}</span>}
+          {type && <span className="badge">{type}</span>}
+          {source && <span className="badge">{source}</span>}
           {refData?.skillPointCost && <span className="badge">{refData.skillPointCost} SP</span>}
           {learned ? <span className="badge badge-accent">Learned</span> : <span className="badge">Not Learned</span>}
         </div>
@@ -124,12 +131,17 @@ export default function SkillsTab({ save, update }) {
     const skills = []
     for (const [guid, value] of Object.entries(attrSkills)) {
       const name = getSkillNameByGuid(guid)
-      if (name && name.match(/^[A-Z]+_\d+_[AP]\d+_/) && !name.startsWith('Enemy_') && !name.startsWith('Werewolf_') && !name.startsWith('BAS_')) {
-        const parsed = parseSkillName(name)
-        const desc = getSkillDescByGuid(guid)
-        const ref = getSkillRefByGuid(guid)
-        skills.push({ guid, value, name, tree: parsed.tree, desc, ref })
-      }
+      if (!name) continue
+      const isTreeSkill = name.match(/^[A-Z]+_\d+_[AP]\d+_/) && !name.startsWith('Enemy_') && !name.startsWith('Werewolf_') && !name.startsWith('BAS_')
+      const isItemSkill = name.startsWith('[')
+      if (!isTreeSkill && !isItemSkill) continue
+      const parsed = parseSkillName(name)
+      const desc = getSkillDescByGuid(guid)
+      const ref = getSkillRefByGuid(guid)
+      const displayName = getSkillDisplayNameByGuid(guid)
+      // Item-granted skills keep their original tree when known (e.g. Dark Ritual -> Shadow)
+      const tree = isItemSkill ? (ref?.skillTree || 'item') : parsed.tree
+      skills.push({ guid, value, name, tree, desc, ref, displayName })
     }
 
     const groups = {}
@@ -137,7 +149,7 @@ export default function SkillsTab({ save, update }) {
     for (const s of skills) {
       if (!groups[s.tree]) groups[s.tree] = []
       groups[s.tree].push(s)
-      if (s.value > 0) {
+      if (s.value > 0 && s.tree !== 'item') {
         const cost = s.ref?.skillPointCost || (s.ref?.tier >= 5 ? 3 : s.ref?.tier === 4 ? 2 : 1)
         spent[s.tree] = (spent[s.tree] || 0) + cost
       }
@@ -150,8 +162,14 @@ export default function SkillsTab({ save, update }) {
   const treeNames = TREE_ORDER.filter((t) => treeGroups[t])
   const currentSkills = (treeGroups[activeTree] || []).filter((s) => {
     if (!skillQuery) return true
+    const q = skillQuery.toLowerCase()
     const parsed = parseSkillName(s.name)
-    return parsed.cleanName.toLowerCase().includes(skillQuery.toLowerCase())
+    return (
+      parsed.cleanName.toLowerCase().includes(q) ||
+      (s.displayName || '').toLowerCase().includes(q) ||
+      (s.desc || '').toLowerCase().includes(q) ||
+      (s.ref?.description || '').toLowerCase().includes(q)
+    )
   })
 
   const setSkillValue = (guid, value) => {
@@ -179,7 +197,9 @@ export default function SkillsTab({ save, update }) {
             onClick={() => setActiveTree(t)}
           >
             {TREE_LABELS[t] || t}
-            <span className="skill-sub-count">{treeSpent[t] || 0} SP</span>
+            <span className="skill-sub-count">
+              {t === 'item' ? `${(treeGroups[t] || []).length} skills` : `${treeSpent[t] || 0} SP`}
+            </span>
           </button>
         ))}
       </div>
@@ -191,6 +211,7 @@ export default function SkillsTab({ save, update }) {
             guid={s.guid}
             value={s.value}
             skillName={s.name}
+            displayName={s.displayName}
             description={s.desc}
             refData={s.ref}
             might={might}

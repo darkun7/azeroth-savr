@@ -161,6 +161,25 @@ async function main() {
     console.log('No skill descriptions found')
   }
 
+  // Merge current in-game skill display names (extracted from resources.assets
+  // localization tables; handles skills renamed after asset creation, e.g.
+  // "[Tome of Tadashi] Tadashi's Ritual" -> "Dark Ritual")
+  const displayNamesPath = path.resolve(__dirname, 'guid-extract/skill_display_names.json')
+  try {
+    const dnText = await fs.readFile(displayNamesPath, 'utf-8')
+    const dnMap = JSON.parse(dnText)
+    let applied = 0
+    for (const sg of combined.skillGuids) {
+      if (dnMap[sg.GUID]) {
+        sg.DisplayName = dnMap[sg.GUID]
+        applied++
+      }
+    }
+    console.log(`Loaded skill display names -> ${applied} overrides`)
+  } catch {
+    console.log('No skill display names found')
+  }
+
   // Merge rich skill data from reference site (stolenrealm.ianlamb.com)
   const skillDataPath = path.resolve(__dirname, 'guid-extract/skillData.json')
   try {
@@ -173,6 +192,15 @@ async function main() {
       const m = sg.Name?.match(/^[A-Z]+_\d+_[AP]\d+_(.+)$/)
       if (m) {
         const ref = refByTitle.get(m[1].toLowerCase())
+        if (ref) {
+          sg.refData = ref
+        }
+      }
+      // Item-granted skills (e.g. "[Tome of Tadashi] Tadashi's Ritual") were
+      // originally tree skills; match by current display name so they keep
+      // their original tree/tier info (Dark Ritual -> shadow, etc.)
+      if (!sg.refData && sg.DisplayName) {
+        const ref = refByTitle.get(sg.DisplayName.toLowerCase())
         if (ref) {
           sg.refData = ref
         }
