@@ -1,0 +1,22 @@
+{
+  "name": "Azeroth Savr - Stolen Realms Save Editor",
+  "short_name": "Azeroth Savr",
+  "description": "Free client-side Stolen Realms save editor. Upload your Character00.json, edit stats, inventory, skills, fortunes and progress, then download the modified save.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#12141a",
+  "theme_color": "#12141a",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

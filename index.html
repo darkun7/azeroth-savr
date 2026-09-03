@@ -3,13 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/images/favicon.ico" />
+    <meta name="theme-color" content="#12141a" />
+
+    <title>Azeroth Savr - Stolen Realms Save Editor</title>
+    <meta name="description" content="Free client-side Stolen Realms save editor. Upload your Character00.json, edit character stats, inventory, skills, fortunes and progress, then download the modified save. No data is uploaded to any server." />
+    <meta name="keywords" content="Stolen Realms, save editor, save game editor, Character00.json, RPG save editor, character editor, client-side" />
+    <meta name="author" content="darkun7" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://darkun7.github.io/azeroth-savr/" />
+
+    <link rel="icon" href="/images/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/images/icon.png" />
-    <title>Azeroth Savr - Stolen Realms Save Editor</title>
+    <link rel="manifest" href="/manifest.json" />
+
+    <meta property="og:title" content="Azeroth Savr - Stolen Realms Save Editor" />
+    <meta property="og:description" content="Free client-side Stolen Realms save editor. Edit Character00.json stats, inventory, skills, fortunes and progress. Nothing is uploaded to a server." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://darkun7.github.io/azeroth-savr/" />
+    <meta property="og:image" content="https://darkun7.github.io/azeroth-savr/images/icon.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="Azeroth Savr logo" />
+    <meta property="og:site_name" content="Azeroth Savr" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Azeroth Savr - Stolen Realms Save Editor" />
+    <meta name="twitter:description" content="Free client-side Stolen Realms save editor. Edit Character00.json stats, inventory, skills, fortunes and progress. Nothing is uploaded to a server." />
+    <meta name="twitter:image" content="https://darkun7.github.io/azeroth-savr/images/icon.png" />
+    <meta name="twitter:image:alt" content="Azeroth Savr logo" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Azeroth Savr",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Free client-side Stolen Realms save editor. Upload your Character00.json, edit character stats, inventory, skills, fortunes and progress, then download the modified save.",
+      "url": "https://darkun7.github.io/azeroth-savr/",
+      "image": "https://darkun7.github.io/azeroth-savr/images/icon.png",
+      "author": {
+        "@type": "Person",
+        "name": "darkun7"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <h1>Azeroth Savr - Stolen Realms Save Editor</h1>
+      <p>Please enable JavaScript to use this save editor. All save file processing happens in your browser — nothing is uploaded to any server.</p>
+    </noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

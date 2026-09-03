@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/fetch-data.js && node scripts/fetch-icons.js && vite build",
+    "build": "node scripts/fetch-data.js && node scripts/fetch-icons.js && vite build && node scripts/inline-build.js",
     "fetch-data": "node scripts/fetch-data.js",
     "fetch-icons": "node scripts/fetch-icons.js",
     "preview": "vite preview"

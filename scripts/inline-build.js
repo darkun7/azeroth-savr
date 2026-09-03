@@ -34,28 +34,12 @@ const safeJs = bundledJs.replace(/<\/script/gi, '<\\/script')
 
 const css = readFileSync(cssFile, 'utf8')
 
-// Build the HTML from scratch instead of fragile regex replacements
-const head = html.split('</head>')[0]
-const faviconLines = head
-  .split('\n')
-  .filter(l => l.includes('rel="icon"') || l.includes('rel="apple-touch-icon"'))
-  .join('\n')
-
-const output = `<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-${faviconLines}
-    <title>Azeroth Savr - Stolen Realms Save Editor</title>
-    <style>${css}</style>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script>${safeJs}</script>
-  </body>
-</html>
-`
+// Inline the assets while preserving all other head/body content (SEO tags, etc.).
+const output = html
+  .replace(/<script[^>]*\ssrc=["'][^"']+["'][^>]*><\/script>/gi, '')
+  .replace(/<link[^>]*\srel=["']stylesheet["'][^>]*>/gi, '')
+  .replace(/<\/head>/i, `    <style>${css}</style>\n  </head>`)
+  .replace(/<\/body>/i, `    <script>${safeJs}</script>\n  </body>`)
 
 writeFileSync(htmlPath, output)
 
